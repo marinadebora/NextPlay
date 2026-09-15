@@ -1,0 +1,2691 @@
+[
+    {
+        "id": 19590,
+        "name": "ORI AND THE BLIND FOREST",
+        "img": "https://media.rawg.io/media/games/f8c/f8c6a262ead4c16b47e1219310210eb3.jpg",
+        "Release_date": "2015-03-10",
+        "rating": 4.37,
+        "platform": [
+            "Xbox 360",
+            "Xbox One",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Adventure"
+            },
+            {
+                "name": "Platformer"
+            }
+        ]
+    },
+    {
+        "id": 13268,
+        "name": "AMNESIA: A MACHINE FOR PIGS",
+        "img": "https://media.rawg.io/media/games/d9f/d9f982e042df6263684ba1fdea3efc1c.jpg",
+        "Release_date": "2013-09-09",
+        "rating": 3.23,
+        "platform": [
+            "Linux",
+            "macOS",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Adventure"
+            },
+            {
+                "name": "Indie"
+            }
+        ]
+    },
+    {
+        "id": 51325,
+        "name": "THE LAST OF US PART II",
+        "img": "https://media.rawg.io/media/games/909/909974d1c7863c2027241e265fe7011f.jpg",
+        "Release_date": "2020-06-19",
+        "rating": 4.41,
+        "platform": [
+            "PlayStation 4",
+            "PlayStation 5"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            },
+            {
+                "name": "Adventure"
+            }
+        ]
+    },
+    {
+        "id": 10560,
+        "name": "TOTAL WAR: SHOGUN 2",
+        "img": "https://media.rawg.io/media/games/be9/be9cf02720c9326e11d0fda14518554f.jpg",
+        "Release_date": "2011-03-14",
+        "rating": 3.62,
+        "platform": [
+            "macOS",
+            "PC",
+            "Linux"
+        ],
+        "genres": [
+            {
+                "name": "Strategy"
+            }
+        ]
+    },
+    {
+        "id": 3853,
+        "name": "TRINE 2: COMPLETE STORY",
+        "img": "https://media.rawg.io/media/screenshots/c97/c97b943741f5fbc936fe054d9d58851d.jpg",
+        "Release_date": "2013-06-05",
+        "rating": 3.72,
+        "platform": [
+            "PlayStation 4",
+            "Nintendo Switch",
+            "PC",
+            "Linux",
+            "macOS"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Indie"
+            },
+            {
+                "name": "Puzzle"
+            },
+            {
+                "name": "Platformer"
+            }
+        ]
+    },
+    {
+        "id": 3168,
+        "name": "SOMA",
+        "img": "https://media.rawg.io/media/games/149/149bbed9d90dc09328ba79bbacfda3c8.jpg",
+        "Release_date": "2015-09-21",
+        "rating": 4.17,
+        "platform": [
+            "PlayStation 4",
+            "Xbox One",
+            "PC",
+            "macOS",
+            "Linux"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Adventure"
+            },
+            {
+                "name": "Indie"
+            }
+        ]
+    },
+    {
+        "id": 11435,
+        "name": "VISCERA CLEANUP DETAIL: SHADOW WARRIOR",
+        "img": "https://media.rawg.io/media/screenshots/f2f/f2f3c93d6153da7aee590f3ab8ccd803.jpg",
+        "Release_date": "2013-09-26",
+        "rating": 2.59,
+        "platform": [
+            "macOS",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Simulation"
+            },
+            {
+                "name": "Indie"
+            }
+        ]
+    },
+    {
+        "id": 10061,
+        "name": "WATCH DOGS 2",
+        "img": "https://media.rawg.io/media/games/f52/f52cf6ba08089cd5f1a9c8f7fcc93d1f.jpg",
+        "Release_date": "2016-11-28",
+        "rating": 3.84,
+        "platform": [
+            "Xbox One",
+            "PlayStation 4",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Adventure"
+            }
+        ]
+    },
+    {
+        "id": 3766,
+        "name": "THIEF",
+        "img": "https://media.rawg.io/media/games/59a/59a3ebcba3d08c51532c6ca877aff256.jpg",
+        "Release_date": "2014-02-25",
+        "rating": 3.26,
+        "platform": [
+            "PlayStation 4",
+            "PlayStation 3",
+            "Xbox 360",
+            "Xbox One",
+            "macOS",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Adventure"
+            }
+        ]
+    },
+    {
+        "id": 1090,
+        "name": "THIS WAR OF MINE",
+        "img": "https://media.rawg.io/media/games/283/283e7e600366b0da7021883d27159b27.jpg",
+        "Release_date": "2014-11-14",
+        "rating": 4.07,
+        "platform": [
+            "Android",
+            "PS Vita",
+            "Nintendo Switch",
+            "Linux",
+            "macOS",
+            "PC",
+            "iOS"
+        ],
+        "genres": [
+            {
+                "name": "Adventure"
+            },
+            {
+                "name": "Simulation"
+            },
+            {
+                "name": "Indie"
+            }
+        ]
+    },
+    {
+        "id": 4013,
+        "name": "CALL OF JUAREZ: GUNSLINGER",
+        "img": "https://media.rawg.io/media/games/a86/a86ce0afaf2d5ec2b0f048989f01795e.jpg",
+        "Release_date": "2013-05-14",
+        "rating": 3.81,
+        "platform": [
+            "PlayStation 3",
+            "PC",
+            "Nintendo Switch",
+            "Xbox 360",
+            "Xbox One"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            }
+        ]
+    },
+    {
+        "id": 3990,
+        "name": "THE LAST OF US",
+        "img": "https://media.rawg.io/media/games/a5a/a5a7fb8d9cb8063a8b42ee002b410db6.jpg",
+        "Release_date": "2013-06-14",
+        "rating": 4.54,
+        "platform": [
+            "PlayStation 3",
+            "PlayStation 4"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Adventure"
+            }
+        ]
+    },
+    {
+        "id": 432,
+        "name": "GRAND THEFT AUTO III",
+        "img": "https://media.rawg.io/media/games/5fa/5fae5fec3c943179e09da67a4427d68f.jpg",
+        "Release_date": "2001-10-22",
+        "rating": 4.15,
+        "platform": [
+            "macOS",
+            "PC",
+            "iOS",
+            "Android",
+            "PlayStation 4",
+            "PlayStation 2",
+            "Xbox"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            }
+        ]
+    },
+    {
+        "id": 11726,
+        "name": "DEAD CELLS",
+        "img": "https://media.rawg.io/media/games/f90/f90ee1a4239247a822771c40488e68c5.jpg",
+        "Release_date": "2018-08-07",
+        "rating": 4.23,
+        "platform": [
+            "Xbox One",
+            "Nintendo Switch",
+            "PlayStation 4",
+            "macOS",
+            "Linux",
+            "iOS",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "RPG"
+            },
+            {
+                "name": "Indie"
+            },
+            {
+                "name": "Platformer"
+            }
+        ]
+    },
+    {
+        "id": 28202,
+        "name": "WOLFENSTEIN II: THE NEW COLOSSUS",
+        "img": "https://media.rawg.io/media/games/a0e/a0ef08621301a1eab5e04fa5c96978fa.jpeg",
+        "Release_date": "2017-10-25",
+        "rating": 4.09,
+        "platform": [
+            "PlayStation 4",
+            "PC",
+            "Nintendo Switch",
+            "Xbox One"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            }
+        ]
+    },
+    {
+        "id": 1358,
+        "name": "PAPERS, PLEASE",
+        "img": "https://media.rawg.io/media/games/6d3/6d33014a4ed48a19c30a77ead5a0f62e.jpg",
+        "Release_date": "2013-08-08",
+        "rating": 4.38,
+        "platform": [
+            "Linux",
+            "macOS",
+            "PC",
+            "iOS",
+            "Android",
+            "PS Vita"
+        ],
+        "genres": [
+            {
+                "name": "Simulation"
+            },
+            {
+                "name": "Educational"
+            },
+            {
+                "name": "Indie"
+            },
+            {
+                "name": "Puzzle"
+            }
+        ]
+    },
+    {
+        "id": 906,
+        "name": "CALL OF DUTY: BLACK OPS III",
+        "img": "https://media.rawg.io/media/games/fd6/fd6a1eecd3ec0f875f1924f3656b7dd9.jpg",
+        "Release_date": "2015-11-06",
+        "rating": 3.27,
+        "platform": [
+            "Xbox 360",
+            "Xbox One",
+            "PlayStation 3",
+            "PC",
+            "PlayStation 4"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            }
+        ]
+    },
+    {
+        "id": 17352,
+        "name": "KILLING FLOOR",
+        "img": "https://media.rawg.io/media/games/806/8060a7663364ac23e15480728938d6f3.jpg",
+        "Release_date": "2009-05-14",
+        "rating": 3.45,
+        "platform": [
+            "PC",
+            "Linux",
+            "macOS"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            }
+        ]
+    },
+    {
+        "id": 952,
+        "name": "SHADOWRUN RETURNS",
+        "img": "https://media.rawg.io/media/games/d4b/d4bcd78873edd9992d93aff9cc8db0c8.jpg",
+        "Release_date": "2013-07-24",
+        "rating": 3.5,
+        "platform": [
+            "PC",
+            "macOS",
+            "Android",
+            "Linux",
+            "iOS"
+        ],
+        "genres": [
+            {
+                "name": "RPG"
+            },
+            {
+                "name": "Strategy"
+            },
+            {
+                "name": "Indie"
+            }
+        ]
+    },
+    {
+        "id": 10073,
+        "name": "DIVINITY: ORIGINAL SIN 2",
+        "img": "https://media.rawg.io/media/games/424/424facd40f4eb1f2794fe4b4bb28a277.jpg",
+        "Release_date": "2017-09-14",
+        "rating": 4.38,
+        "platform": [
+            "PlayStation 4",
+            "Nintendo Switch",
+            "PC",
+            "Xbox One"
+        ],
+        "genres": [
+            {
+                "name": "RPG"
+            },
+            {
+                "name": "Strategy"
+            }
+        ]
+    },
+    {
+        "id": 10548,
+        "name": "DARKSIDERS WARMASTERED EDITION",
+        "img": "https://media.rawg.io/media/games/1f1/1f1888e1308959dfd3be4c144a81d19c.jpg",
+        "Release_date": "2016-11-29",
+        "rating": 3.68,
+        "platform": [
+            "Xbox One",
+            "PC",
+            "Nintendo Switch",
+            "Wii U",
+            "PlayStation 4"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "RPG"
+            }
+        ]
+    },
+    {
+        "id": 18272,
+        "name": "MAGICKA",
+        "img": "https://media.rawg.io/media/games/c7a/c7a71a0531a9518236d99d0d60abe447.jpg",
+        "Release_date": "2011-01-25",
+        "rating": 3.79,
+        "platform": [
+            "Android",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "RPG"
+            }
+        ]
+    },
+    {
+        "id": 3474,
+        "name": "LARA CROFT AND THE TEMPLE OF OSIRIS",
+        "img": "https://media.rawg.io/media/games/1fb/1fb1c5f7a71d771f440b27ce7f71e7eb.jpg",
+        "Release_date": "2014-12-08",
+        "rating": 3.09,
+        "platform": [
+            "Xbox One",
+            "PlayStation 4",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Adventure"
+            },
+            {
+                "name": "Puzzle"
+            }
+        ]
+    },
+    {
+        "id": 43877,
+        "name": "QUAKE CHAMPIONS",
+        "img": "https://media.rawg.io/media/games/fba/fbae1bcfae1feffda6a11fbc1c939420.jpg",
+        "Release_date": "2017-08-22",
+        "rating": 3.26,
+        "platform": [
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            }
+        ]
+    },
+    {
+        "id": 59359,
+        "name": "A PLAGUE TALE: INNOCENCE",
+        "img": "https://media.rawg.io/media/games/b4a/b4adf80c36e267b35acc3497ed2af19c.jpg",
+        "Release_date": "2019-05-13",
+        "rating": 4.14,
+        "platform": [
+            "PC",
+            "Xbox Series S/X",
+            "PlayStation 4",
+            "PlayStation 5",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Adventure"
+            }
+        ]
+    },
+    {
+        "id": 10419,
+        "name": "SUBNAUTICA",
+        "img": "https://media.rawg.io/media/games/739/73990e3ec9f43a9e8ecafe207fa4f368.jpg",
+        "Release_date": "2018-01-23",
+        "rating": 4.24,
+        "platform": [
+            "PlayStation 4",
+            "Xbox Series S/X",
+            "PC",
+            "macOS",
+            "Nintendo Switch",
+            "Xbox One",
+            "PlayStation 5"
+        ],
+        "genres": [
+            {
+                "name": "Adventure"
+            },
+            {
+                "name": "Indie"
+            }
+        ]
+    },
+    {
+        "id": 28492,
+        "name": "DEAD ISLAND",
+        "img": "https://media.rawg.io/media/games/56e/56ed40948bebaf1968234aa6e3c74771.jpg",
+        "Release_date": "2011-09-06",
+        "rating": 3.48,
+        "platform": [
+            "PlayStation 3",
+            "Xbox 360",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            },
+            {
+                "name": "RPG"
+            }
+        ]
+    },
+    {
+        "id": 3757,
+        "name": "SOUTH PARK: THE STICK OF TRUTH",
+        "img": "https://media.rawg.io/media/games/8ca/8ca40b562a755d6a0e30d48e6c74b178.jpg",
+        "Release_date": "2014-03-04",
+        "rating": 4.22,
+        "platform": [
+            "Xbox One",
+            "PlayStation 4",
+            "PlayStation 3",
+            "PC",
+            "Nintendo Switch",
+            "Xbox 360"
+        ],
+        "genres": [
+            {
+                "name": "Adventure"
+            },
+            {
+                "name": "RPG"
+            }
+        ]
+    },
+    {
+        "id": 559,
+        "name": "FALLOUT SHELTER",
+        "img": "https://media.rawg.io/media/games/a91/a911f0a91991469e398fa70091507a5b.jpg",
+        "Release_date": "2015-06-15",
+        "rating": 3.43,
+        "platform": [
+            "PlayStation 4",
+            "Xbox One",
+            "PC",
+            "Nintendo Switch",
+            "Android",
+            "iOS"
+        ],
+        "genres": [
+            {
+                "name": "RPG"
+            },
+            {
+                "name": "Simulation"
+            }
+        ]
+    },
+    {
+        "id": 56184,
+        "name": "RESIDENT EVIL 4 (2005)",
+        "img": "https://media.rawg.io/media/games/fee/fee0100afd87b52bfbd33e26689fa26c.jpg",
+        "Release_date": "2005-01-11",
+        "rating": 4.4,
+        "platform": [
+            "GameCube",
+            "Android",
+            "PC",
+            "iOS",
+            "PlayStation 4",
+            "PlayStation 2",
+            "Wii"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            }
+        ]
+    },
+    {
+        "id": 8146,
+        "name": "ASSASSIN'S CREED UNITY",
+        "img": "https://media.rawg.io/media/games/59f/59fc1c5de1d29cb9234741c97d250150.jpg",
+        "Release_date": "2014-11-11",
+        "rating": 3.63,
+        "platform": [
+            "PlayStation 4",
+            "PC",
+            "Xbox One"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            }
+        ]
+    },
+    {
+        "id": 3740,
+        "name": "FEZ",
+        "img": "https://media.rawg.io/media/games/4cb/4cb855e8ef1578415a928e53c9f51867.png",
+        "Release_date": "2012-04-13",
+        "rating": 4.01,
+        "platform": [
+            "Nintendo Switch",
+            "PlayStation 3",
+            "Xbox 360",
+            "PlayStation 4",
+            "PS Vita",
+            "iOS",
+            "PC",
+            "macOS",
+            "Linux"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Adventure"
+            },
+            {
+                "name": "Indie"
+            },
+            {
+                "name": "Puzzle"
+            },
+            {
+                "name": "Platformer"
+            }
+        ]
+    },
+    {
+        "id": 1244,
+        "name": "DARKEST DUNGEON",
+        "img": "https://media.rawg.io/media/games/fd9/fd92f105dcd6491bc5d61135033d1f19.jpg",
+        "Release_date": "2016-01-18",
+        "rating": 4.17,
+        "platform": [
+            "PC",
+            "macOS",
+            "Nintendo Switch",
+            "Linux",
+            "PS Vita",
+            "Xbox One",
+            "PlayStation 4"
+        ],
+        "genres": [
+            {
+                "name": "RPG"
+            },
+            {
+                "name": "Strategy"
+            },
+            {
+                "name": "Indie"
+            }
+        ]
+    },
+    {
+        "id": 19542,
+        "name": "HALF-LIFE: BLUE SHIFT",
+        "img": "https://media.rawg.io/media/games/4cb/4cb463b5588adc672124fb041f09e91c.jpg",
+        "Release_date": "2001-06-01",
+        "rating": 3.73,
+        "platform": [
+            "Linux",
+            "macOS",
+            "PC",
+            "Dreamcast"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            }
+        ]
+    },
+    {
+        "id": 15859,
+        "name": "STAR WARS: KNIGHTS OF THE OLD REPUBLIC",
+        "img": "https://media.rawg.io/media/games/6e0/6e0c19bb111bd4fa20cf0eb72a049519.jpg",
+        "Release_date": "2003-07-15",
+        "rating": 4.35,
+        "platform": [
+            "Xbox 360",
+            "Xbox",
+            "Nintendo Switch",
+            "Xbox One",
+            "Android",
+            "iOS",
+            "PC",
+            "macOS"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "RPG"
+            }
+        ]
+    },
+    {
+        "id": 21265,
+        "name": "HALF-LIFE: OPPOSING FORCE",
+        "img": "https://media.rawg.io/media/games/110/1106ebafac87cc573161f1f4f16e84cf.jpeg",
+        "Release_date": "1999-11-19",
+        "rating": 3.87,
+        "platform": [
+            "Linux",
+            "macOS",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            }
+        ]
+    },
+    {
+        "id": 4954,
+        "name": "CASTLE CRASHERS",
+        "img": "https://media.rawg.io/media/games/d1a/d1a1202a378607b6c635c8f18ace95dd.jpg",
+        "Release_date": "2008-08-27",
+        "rating": 3.89,
+        "platform": [
+            "PlayStation 3",
+            "Xbox 360",
+            "Nintendo Switch",
+            "PC",
+            "macOS"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Indie"
+            }
+        ]
+    },
+    {
+        "id": 14348,
+        "name": "DYING LIGHT: THE FOLLOWING - ENHANCED EDITION",
+        "img": "https://media.rawg.io/media/games/c11/c11a0b92b4c28f2e0db489f430142653.jpg",
+        "Release_date": "2015-01-26",
+        "rating": 4.13,
+        "platform": [
+            "macOS",
+            "PC",
+            "Linux",
+            "Xbox One",
+            "PlayStation 4"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "RPG"
+            }
+        ]
+    },
+    {
+        "id": 2572,
+        "name": "DIRT RALLY",
+        "img": "https://media.rawg.io/media/games/78d/78dfae12fb8c5b16cd78648553071e0a.jpg",
+        "Release_date": "2015-12-07",
+        "rating": 3.69,
+        "platform": [
+            "PlayStation 4",
+            "PC",
+            "macOS",
+            "Xbox One",
+            "Linux"
+        ],
+        "genres": [
+            {
+                "name": "Simulation"
+            },
+            {
+                "name": "Sports"
+            },
+            {
+                "name": "Racing"
+            }
+        ]
+    },
+    {
+        "id": 865,
+        "name": "CALL OF DUTY: BLACK OPS",
+        "img": "https://media.rawg.io/media/games/410/41033a495ce8f7fd4b0934bdb975f12a.jpg",
+        "Release_date": "2010-11-09",
+        "rating": 4.06,
+        "platform": [
+            "macOS",
+            "PC",
+            "iOS",
+            "Nintendo DS",
+            "PlayStation 3",
+            "Xbox One",
+            "Wii",
+            "Xbox 360"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            }
+        ]
+    },
+    {
+        "id": 4639,
+        "name": "DRAGON AGE: ORIGINS",
+        "img": "https://media.rawg.io/media/games/dc0/dc0926d3f84ffbcc00968fe8a6f0aed3.jpg",
+        "Release_date": "2009-11-03",
+        "rating": 4.39,
+        "platform": [
+            "Xbox 360",
+            "Xbox One",
+            "macOS",
+            "PlayStation 3",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "RPG"
+            }
+        ]
+    },
+    {
+        "id": 9475,
+        "name": "DON'T STARVE",
+        "img": "https://media.rawg.io/media/games/f3e/f3eec35c6218dcfd93a537751e6bfa61.jpg",
+        "Release_date": "2013-04-22",
+        "rating": 3.85,
+        "platform": [
+            "PlayStation 3",
+            "PS Vita",
+            "Linux",
+            "Wii U",
+            "Xbox One",
+            "PC",
+            "macOS",
+            "PlayStation 4"
+        ],
+        "genres": [
+            {
+                "name": "Indie"
+            }
+        ]
+    },
+    {
+        "id": 857,
+        "name": "HALO: THE MASTER CHIEF COLLECTION",
+        "img": "https://media.rawg.io/media/games/c24/c24f4434882ae9c2c8d9d38de82cb7a5.jpg",
+        "Release_date": "2014-11-11",
+        "rating": 4.25,
+        "platform": [
+            "PC",
+            "Xbox One"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Adventure"
+            }
+        ]
+    },
+    {
+        "id": 19384,
+        "name": "THE BINDING OF ISAAC",
+        "img": "https://media.rawg.io/media/games/cef/cefedf18016cbab466861eb698daf988.jpg",
+        "Release_date": "2011-09-28",
+        "rating": 3.91,
+        "platform": [
+            "macOS",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "RPG"
+            },
+            {
+                "name": "Indie"
+            }
+        ]
+    },
+    {
+        "id": 3015,
+        "name": "CHIVALRY: MEDIEVAL WARFARE",
+        "img": "https://media.rawg.io/media/games/7f0/7f021d4a3577ac9d591a628a431fc2e5.jpg",
+        "Release_date": "2012-10-16",
+        "rating": 3.41,
+        "platform": [
+            "PC",
+            "Xbox One",
+            "Xbox 360",
+            "PlayStation 3",
+            "PlayStation 4",
+            "macOS",
+            "Linux"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Indie"
+            }
+        ]
+    },
+    {
+        "id": 18241,
+        "name": "DMC: DEVIL MAY CRY",
+        "img": "https://media.rawg.io/media/games/295/295eb868c241e6ad32ac033b8e6a2ede.jpg",
+        "Release_date": "2013-01-15",
+        "rating": 4.02,
+        "platform": [
+            "PlayStation 3",
+            "PC",
+            "Xbox One",
+            "PlayStation 4",
+            "Xbox 360"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Adventure"
+            }
+        ]
+    },
+    {
+        "id": 3486,
+        "name": "SYBERIA",
+        "img": "https://media.rawg.io/media/games/852/8522935d8ab27b610a254b52de0da212.jpg",
+        "Release_date": "2002-01-09",
+        "rating": 3.94,
+        "platform": [
+            "PlayStation 2",
+            "Nintendo DS",
+            "Nintendo Switch",
+            "macOS",
+            "PC",
+            "iOS",
+            "PlayStation 3",
+            "Xbox 360",
+            "Android"
+        ],
+        "genres": [
+            {
+                "name": "Adventure"
+            },
+            {
+                "name": "Puzzle"
+            }
+        ]
+    },
+    {
+        "id": 6617,
+        "name": "QUANTUM BREAK",
+        "img": "https://media.rawg.io/media/games/a28/a289e23b4d4d84f26ab59125e3be4483.jpg",
+        "Release_date": "2016-04-05",
+        "rating": 3.91,
+        "platform": [
+            "PC",
+            "Xbox One"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            }
+        ]
+    },
+    {
+        "id": 4550,
+        "name": "DEAD SPACE 2",
+        "img": "https://media.rawg.io/media/games/ae1/ae1518c3dc1e847344661905fd2a8d16.jpg",
+        "Release_date": "2011-01-25",
+        "rating": 4.38,
+        "platform": [
+            "Xbox 360",
+            "PC",
+            "Xbox One",
+            "PlayStation 3"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            }
+        ]
+    },
+    {
+        "id": 28623,
+        "name": "BATMAN: ARKHAM CITY",
+        "img": "https://media.rawg.io/media/games/b5a/b5a1226bfd971284a735a4a0969086b3.jpg",
+        "Release_date": "2011-10-18",
+        "rating": 4.4,
+        "platform": [
+            "PC",
+            "PlayStation 3",
+            "Nintendo Switch",
+            "macOS",
+            "PlayStation 4",
+            "Xbox One",
+            "Xbox 360"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            }
+        ]
+    },
+    {
+        "id": 16112,
+        "name": "SLEEPING DOGS: DEFINITIVE EDITION",
+        "img": "https://media.rawg.io/media/games/bd7/bd7cfccfececba1ec2b97a120a40373f.jpg",
+        "Release_date": "2014-10-08",
+        "rating": 4.15,
+        "platform": [
+            "Xbox One",
+            "PC",
+            "macOS",
+            "PlayStation 4"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Adventure"
+            }
+        ]
+    },
+    {
+        "id": 5562,
+        "name": "FALLOUT 3",
+        "img": "https://media.rawg.io/media/games/5a4/5a4e70bb8a862829dbaa398aa5f66afc.jpg",
+        "Release_date": "2008-10-28",
+        "rating": 4.08,
+        "platform": [
+            "Xbox 360",
+            "PC",
+            "Xbox One",
+            "PlayStation 3"
+        ],
+        "genres": [
+            {
+                "name": "Shooter"
+            },
+            {
+                "name": "RPG"
+            }
+        ]
+    },
+    {
+        "id": 58755,
+        "name": "DEVIL MAY CRY 5",
+        "img": "https://media.rawg.io/media/games/9fb/9fbf956a16249def7625ab5dc3d09515.jpg",
+        "Release_date": "2019-03-08",
+        "rating": 4.25,
+        "platform": [
+            "PlayStation 5",
+            "Xbox One",
+            "PC",
+            "PlayStation 4"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            }
+        ]
+    },
+    {
+        "id": 3932,
+        "name": "THE BUREAU: XCOM DECLASSIFIED",
+        "img": "https://media.rawg.io/media/games/5cc/5cc765484c6df567ed9207c1781b88cb.jpg",
+        "Release_date": "2013-08-20",
+        "rating": 3.05,
+        "platform": [
+            "Xbox 360",
+            "PC",
+            "PlayStation 3",
+            "macOS"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            }
+        ]
+    },
+    {
+        "id": 3771,
+        "name": "RAYMAN LEGENDS",
+        "img": "https://media.rawg.io/media/games/85c/85c8ae70e7cdf0105f06ef6bdce63b8b.jpg",
+        "Release_date": "2013-08-29",
+        "rating": 4.16,
+        "platform": [
+            "Xbox One",
+            "Xbox 360",
+            "PlayStation 3",
+            "PC",
+            "Nintendo Switch",
+            "Wii U",
+            "PlayStation 4",
+            "PS Vita"
+        ],
+        "genres": [
+            {
+                "name": "Platformer"
+            }
+        ]
+    },
+    {
+        "id": 3028,
+        "name": "BEYOND: TWO SOULS",
+        "img": "https://media.rawg.io/media/games/07a/07a74470a2618fd71945db0619602baf.jpg",
+        "Release_date": "2013-10-07",
+        "rating": 3.81,
+        "platform": [
+            "PC",
+            "PlayStation 3",
+            "PlayStation 4"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Adventure"
+            }
+        ]
+    },
+    {
+        "id": 492,
+        "name": "YAKUZA 0",
+        "img": "https://media.rawg.io/media/games/ca1/ca16da30f86d8f4d36261de45fb35430.jpg",
+        "Release_date": "2015-03-12",
+        "rating": 4.36,
+        "platform": [
+            "PC",
+            "PlayStation 4",
+            "PlayStation 3",
+            "Xbox One"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "RPG"
+            }
+        ]
+    },
+    {
+        "id": 29338,
+        "name": "DAYS GONE",
+        "img": "https://media.rawg.io/media/games/a79/a79d2fc90c4dbf07a8580b19600fd61d.jpg",
+        "Release_date": "2019-04-26",
+        "rating": 3.98,
+        "platform": [
+            "PC",
+            "PlayStation 4"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            }
+        ]
+    },
+    {
+        "id": 17875,
+        "name": "GUACAMELEE! SUPER TURBO CHAMPIONSHIP EDITION",
+        "img": "https://media.rawg.io/media/games/fc8/fc838d98c9b944e6a15176eabf40bee8.jpg",
+        "Release_date": "2014-07-01",
+        "rating": 3.55,
+        "platform": [
+            "PlayStation 4",
+            "Xbox 360",
+            "Wii U",
+            "Nintendo Switch",
+            "PC",
+            "Xbox One"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Indie"
+            },
+            {
+                "name": "Platformer"
+            }
+        ]
+    },
+    {
+        "id": 1169,
+        "name": "MAFIA III",
+        "img": "https://media.rawg.io/media/games/a34/a348e613424260bc7e034fb6031c762e.jpg",
+        "Release_date": "2016-10-06",
+        "rating": 3.14,
+        "platform": [
+            "macOS",
+            "PC",
+            "Xbox One",
+            "PlayStation 4"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Adventure"
+            }
+        ]
+    },
+    {
+        "id": 7819,
+        "name": "SUPERHOT",
+        "img": "https://media.rawg.io/media/screenshots/ad4/ad445a12ee46543d4d117f3893041ebf.jpg",
+        "Release_date": "2016-02-24",
+        "rating": 4.2,
+        "platform": [
+            "PlayStation 4",
+            "Nintendo Switch",
+            "macOS",
+            "Xbox One",
+            "Linux",
+            "Web",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            },
+            {
+                "name": "Indie"
+            }
+        ]
+    },
+    {
+        "id": 3842,
+        "name": "BATTLEFIELD 4",
+        "img": "https://media.rawg.io/media/games/ac7/ac7b8327343da12c971cfc418f390a11.jpg",
+        "Release_date": "2013-10-29",
+        "rating": 3.95,
+        "platform": [
+            "PC",
+            "Xbox One",
+            "PlayStation 4",
+            "Xbox 360",
+            "PlayStation 3"
+        ],
+        "genres": [
+            {
+                "name": "Shooter"
+            }
+        ]
+    },
+    {
+        "id": 42187,
+        "name": "THE SIMS 4",
+        "img": "https://media.rawg.io/media/games/e44/e445335e611b4ccf03af71fffcbd30a4.jpg",
+        "Release_date": "2014-09-02",
+        "rating": 3.67,
+        "platform": [
+            "PlayStation 4",
+            "macOS",
+            "PC",
+            "Xbox One",
+            "Xbox Series S/X"
+        ],
+        "genres": [
+            {
+                "name": "Strategy"
+            },
+            {
+                "name": "Simulation"
+            },
+            {
+                "name": "Casual"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "name": "WHAT REMAINS OF EDITH FINCH",
+        "img": "https://media.rawg.io/media/games/34e/34e100b1f648de99f32d477065f04653.jpg",
+        "Release_date": "2017-04-23",
+        "rating": 4.38,
+        "platform": [
+            "Xbox One",
+            "iOS",
+            "PC",
+            "Nintendo Switch",
+            "PlayStation 4"
+        ],
+        "genres": [
+            {
+                "name": "Adventure"
+            },
+            {
+                "name": "Indie"
+            }
+        ]
+    },
+    {
+        "id": 17126,
+        "name": "TORCHLIGHT II",
+        "img": "https://media.rawg.io/media/games/c06/c06d88c35785c8003147cb53c84af033.jpg",
+        "Release_date": "2012-09-20",
+        "rating": 3.84,
+        "platform": [
+            "PC",
+            "PlayStation 4",
+            "Nintendo Switch",
+            "Xbox One",
+            "macOS",
+            "Linux"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "RPG"
+            }
+        ]
+    },
+    {
+        "id": 817974,
+        "name": "WALLPAPER ENGINE",
+        "img": "https://media.rawg.io/media/screenshots/5a7/5a72aed79451d8fbd6a7b82f784002bd.jpg",
+        "Release_date": "2016-10-10",
+        "rating": 4.05,
+        "platform": [
+            "Android",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Casual"
+            }
+        ]
+    },
+    {
+        "id": 1959,
+        "name": "GOAT SIMULATOR",
+        "img": "https://media.rawg.io/media/games/a44/a444a7628bdb49b24d06a7672f805814.jpg",
+        "Release_date": "2014-04-01",
+        "rating": 3.18,
+        "platform": [
+            "Xbox One",
+            "Xbox 360",
+            "PlayStation 3",
+            "PlayStation 4",
+            "Android",
+            "iOS",
+            "macOS",
+            "Linux",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Simulation"
+            },
+            {
+                "name": "Casual"
+            },
+            {
+                "name": "Indie"
+            }
+        ]
+    },
+    {
+        "id": 5703,
+        "name": "UNCHARTED 3: DRAKE'S DECEPTION",
+        "img": "https://media.rawg.io/media/games/589/589fc47c5ae34160d65c4682e21fed66.jpg",
+        "Release_date": "2011-11-01",
+        "rating": 4.37,
+        "platform": [
+            "PlayStation 4",
+            "PlayStation 3"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            }
+        ]
+    },
+    {
+        "id": 21924,
+        "name": "CALL OF DUTY: WWII",
+        "img": "https://media.rawg.io/media/games/1e5/1e5e33b88be978f451196a751424a72e.jpg",
+        "Release_date": "2017-11-03",
+        "rating": 3.55,
+        "platform": [
+            "PlayStation 4",
+            "Xbox One",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            }
+        ]
+    },
+    {
+        "id": 28199,
+        "name": "ORI AND THE WILL OF THE WISPS",
+        "img": "https://media.rawg.io/media/games/718/71891d2484a592d871e91dc826707e1c.jpg",
+        "Release_date": "2020-03-10",
+        "rating": 4.41,
+        "platform": [
+            "Xbox One",
+            "PC",
+            "Nintendo Switch",
+            "Xbox Series S/X"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Adventure"
+            },
+            {
+                "name": "Platformer"
+            }
+        ]
+    },
+    {
+        "id": 3408,
+        "name": "HOTLINE MIAMI 2: WRONG NUMBER",
+        "img": "https://media.rawg.io/media/games/003/0031c0067559d41df19cf98ad87e02aa.jpg",
+        "Release_date": "2015-03-09",
+        "rating": 4.28,
+        "platform": [
+            "Android",
+            "PS Vita",
+            "PlayStation 4",
+            "PlayStation 3",
+            "Linux",
+            "macOS",
+            "PC",
+            "Nintendo Switch",
+            "iOS"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            },
+            {
+                "name": "Arcade"
+            },
+            {
+                "name": "Indie"
+            }
+        ]
+    },
+    {
+        "id": 2623,
+        "name": "RESIDENT EVIL 6",
+        "img": "https://media.rawg.io/media/games/f6f/f6f39c5b56413f7f4513b25989a1b747.jpg",
+        "Release_date": "2012-10-02",
+        "rating": 3.43,
+        "platform": [
+            "Web",
+            "Nintendo Switch",
+            "PC",
+            "Xbox One",
+            "PlayStation 4",
+            "Xbox 360",
+            "PlayStation 3"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            }
+        ]
+    },
+    {
+        "id": 19365,
+        "name": "HOMEFRONT",
+        "img": "https://media.rawg.io/media/games/657/657574cd437df9102f511b3be095b0ea.jpg",
+        "Release_date": "2011-03-15",
+        "rating": 2.96,
+        "platform": [
+            "PlayStation 3",
+            "PC",
+            "Xbox 360"
+        ],
+        "genres": [
+            {
+                "name": "Shooter"
+            }
+        ]
+    },
+    {
+        "id": 3892,
+        "name": "SNIPER ELITE V2",
+        "img": "https://media.rawg.io/media/games/03d/03d17d237f9541b67a13f9425ced4ca4.jpg",
+        "Release_date": "2012-05-01",
+        "rating": 3.4,
+        "platform": [
+            "PC",
+            "Wii U",
+            "Xbox 360",
+            "PlayStation 3"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            }
+        ]
+    },
+    {
+        "id": 5159,
+        "name": "RESIDENT EVIL 2 (1998)",
+        "img": "https://media.rawg.io/media/games/d64/d646810b629081cc12aec49ed9f49441.jpg",
+        "Release_date": "1998-01-21",
+        "rating": 4.33,
+        "platform": [
+            "Dreamcast",
+            "GameCube",
+            "Nintendo 64",
+            "PC",
+            "PlayStation"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            }
+        ]
+    },
+    {
+        "id": 1774,
+        "name": "GRIM FANDANGO REMASTERED",
+        "img": "https://media.rawg.io/media/games/df2/df20fd77db56ae7b0a26a7ff4baa9ccc.jpg",
+        "Release_date": "2015-01-26",
+        "rating": 4.0,
+        "platform": [
+            "PC",
+            "PlayStation 4",
+            "PS Vita",
+            "Xbox One",
+            "Nintendo Switch",
+            "iOS",
+            "Linux",
+            "macOS",
+            "Android"
+        ],
+        "genres": [
+            {
+                "name": "Adventure"
+            },
+            {
+                "name": "Puzzle"
+            }
+        ]
+    },
+    {
+        "id": 22511,
+        "name": "THE LEGEND OF ZELDA: BREATH OF THE WILD",
+        "img": "https://media.rawg.io/media/games/cc1/cc196a5ad763955d6532cdba236f730c.jpg",
+        "Release_date": "2017-03-03",
+        "rating": 4.47,
+        "platform": [
+            "Nintendo Switch",
+            "Wii U"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Adventure"
+            },
+            {
+                "name": "RPG"
+            }
+        ]
+    },
+    {
+        "id": 28559,
+        "name": "DRAGON AGE: INQUISITION",
+        "img": "https://media.rawg.io/media/games/260/26023c855f1769a93411d6a7ea084632.jpeg",
+        "Release_date": "2014-11-18",
+        "rating": 3.79,
+        "platform": [
+            "Xbox 360",
+            "PlayStation 3",
+            "PlayStation 4",
+            "Xbox One",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "RPG"
+            },
+            {
+                "name": "Strategy"
+            }
+        ]
+    },
+    {
+        "id": 274762,
+        "name": "THE OUTER WORLDS",
+        "img": "https://media.rawg.io/media/games/704/704f831d2d132e9614931f1c4eab9e86.jpg",
+        "Release_date": "2019-10-25",
+        "rating": 3.85,
+        "platform": [
+            "PlayStation 4",
+            "PC",
+            "Nintendo Switch",
+            "Xbox One"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            },
+            {
+                "name": "Adventure"
+            },
+            {
+                "name": "RPG"
+            }
+        ]
+    },
+    {
+        "id": 2873,
+        "name": "THE WITNESS",
+        "img": "https://media.rawg.io/media/games/00b/00b164224ebaf381104d0b215a37afb3.jpg",
+        "Release_date": "2016-01-25",
+        "rating": 4.01,
+        "platform": [
+            "Android",
+            "macOS",
+            "PC",
+            "iOS",
+            "Xbox One",
+            "PlayStation 4"
+        ],
+        "genres": [
+            {
+                "name": "Adventure"
+            },
+            {
+                "name": "Indie"
+            },
+            {
+                "name": "Puzzle"
+            }
+        ]
+    },
+    {
+        "id": 9609,
+        "name": "EURO TRUCK SIMULATOR 2",
+        "img": "https://media.rawg.io/media/games/1f5/1f5ddf7199f2778ff83663b93b5cb330.jpg",
+        "Release_date": "2012-10-19",
+        "rating": 4.13,
+        "platform": [
+            "Linux",
+            "macOS",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Simulation"
+            },
+            {
+                "name": "Indie"
+            }
+        ]
+    },
+    {
+        "id": 11276,
+        "name": "CALL OF DUTY: MODERN WARFARE 3",
+        "img": "https://media.rawg.io/media/games/e9c/e9c042d14515eb3ff7cb4db9fe78e435.jpg",
+        "Release_date": "2011-11-08",
+        "rating": 3.79,
+        "platform": [
+            "PC",
+            "macOS",
+            "Wii",
+            "Xbox 360",
+            "PlayStation 3",
+            "iOS",
+            "Xbox One"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            }
+        ]
+    },
+    {
+        "id": 9600,
+        "name": "THE FOREST",
+        "img": "https://media.rawg.io/media/games/1be/1be575aa6de86de328433a63fb534d9a.jpg",
+        "Release_date": "2018-04-30",
+        "rating": 3.74,
+        "platform": [
+            "PC",
+            "PlayStation 4"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Adventure"
+            },
+            {
+                "name": "Indie"
+            }
+        ]
+    },
+    {
+        "id": 2733,
+        "name": "BROFORCE",
+        "img": "https://media.rawg.io/media/games/9cc/9cc11e2e81403186c7fa9c00c143d6e4.jpg",
+        "Release_date": "2015-10-15",
+        "rating": 4.02,
+        "platform": [
+            "Nintendo Switch",
+            "PlayStation 4",
+            "Linux",
+            "macOS",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Indie"
+            },
+            {
+                "name": "Platformer"
+            }
+        ]
+    },
+    {
+        "id": 624,
+        "name": "FTL: FASTER THAN LIGHT",
+        "img": "https://media.rawg.io/media/games/5f4/5f4780690dbf04900cbac5f05b9305f3.jpg",
+        "Release_date": "2012-09-14",
+        "rating": 4.25,
+        "platform": [
+            "PC",
+            "Linux",
+            "iOS",
+            "macOS"
+        ],
+        "genres": [
+            {
+                "name": "Strategy"
+            },
+            {
+                "name": "Simulation"
+            },
+            {
+                "name": "Indie"
+            }
+        ]
+    },
+    {
+        "id": 11686,
+        "name": "POSTAL 2",
+        "img": "https://media.rawg.io/media/games/2a2/2a2f9a0035544500e59a171c7038ec3a.jpg",
+        "Release_date": "2003-04-13",
+        "rating": 3.91,
+        "platform": [
+            "macOS",
+            "PC",
+            "Linux"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            },
+            {
+                "name": "Adventure"
+            },
+            {
+                "name": "Indie"
+            }
+        ]
+    },
+    {
+        "id": 58753,
+        "name": "FORZA HORIZON 4",
+        "img": "https://media.rawg.io/media/games/786/7863e587bac630de82fca50d799236a9.jpg",
+        "Release_date": "2018-10-02",
+        "rating": 4.37,
+        "platform": [
+            "PC",
+            "Xbox One",
+            "Xbox Series S/X"
+        ],
+        "genres": [
+            {
+                "name": "Racing"
+            },
+            {
+                "name": "Arcade"
+            }
+        ]
+    },
+    {
+        "id": 16209,
+        "name": "KINGDOM: CLASSIC",
+        "img": "https://media.rawg.io/media/games/e40/e40cc9d1957b0a0ed7e389834457b524.jpg",
+        "Release_date": "2015-09-21",
+        "rating": 3.4,
+        "platform": [
+            "Linux",
+            "macOS",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Strategy"
+            },
+            {
+                "name": "Simulation"
+            },
+            {
+                "name": "Indie"
+            }
+        ]
+    },
+    {
+        "id": 15834,
+        "name": "THE WALKING DEAD: SEASON 2",
+        "img": "https://media.rawg.io/media/games/471/4712c9ac591f556f553556b864a7e92b.jpg",
+        "Release_date": "2013-12-16",
+        "rating": 4.06,
+        "platform": [
+            "macOS",
+            "PC",
+            "iOS",
+            "Android",
+            "PS Vita",
+            "PlayStation 3",
+            "Xbox 360",
+            "Nintendo Switch",
+            "PlayStation 4",
+            "Xbox One"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Adventure"
+            }
+        ]
+    },
+    {
+        "id": 23322,
+        "name": "SURVIVING MARS",
+        "img": "https://media.rawg.io/media/games/08b/08b2eee52a9876a48b955e5149affe5b.jpg",
+        "Release_date": "2018-03-14",
+        "rating": 3.47,
+        "platform": [
+            "PlayStation 4",
+            "Xbox One",
+            "PC",
+            "macOS",
+            "Linux"
+        ],
+        "genres": [
+            {
+                "name": "Strategy"
+            },
+            {
+                "name": "Simulation"
+            }
+        ]
+    },
+    {
+        "id": 58617,
+        "name": "BORDERLANDS 3",
+        "img": "https://media.rawg.io/media/games/9f1/9f1891779cb20f44de93cef33b067e50.jpg",
+        "Release_date": "2019-09-13",
+        "rating": 3.87,
+        "platform": [
+            "Nintendo Switch",
+            "PC",
+            "Xbox One",
+            "PlayStation 4",
+            "PlayStation 5",
+            "Xbox Series S/X"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            },
+            {
+                "name": "Adventure"
+            },
+            {
+                "name": "RPG"
+            }
+        ]
+    },
+    {
+        "id": 3371,
+        "name": "DARK SOULS II: SCHOLAR OF THE FIRST SIN",
+        "img": "https://media.rawg.io/media/games/8fc/8fc59e74133fd8a8a436b7e2d0fb36c2.jpg",
+        "Release_date": "2015-04-01",
+        "rating": 4.14,
+        "platform": [
+            "PlayStation 4",
+            "Xbox One",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "RPG"
+            }
+        ]
+    },
+    {
+        "id": 22781,
+        "name": "SYBERIA 2",
+        "img": "https://media.rawg.io/media/games/c00/c003705c0eaed100397ae408b7b89e90.jpg",
+        "Release_date": "2004-03-30",
+        "rating": 3.89,
+        "platform": [
+            "iOS",
+            "Xbox",
+            "Android",
+            "PlayStation 3",
+            "PlayStation 2",
+            "Xbox 360",
+            "Nintendo Switch",
+            "macOS",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Adventure"
+            },
+            {
+                "name": "Puzzle"
+            }
+        ]
+    },
+    {
+        "id": 4440,
+        "name": "DEUS EX: HUMAN REVOLUTION",
+        "img": "https://media.rawg.io/media/games/81e/81e6c6819d4322caf375b6735c3043ec.jpg",
+        "Release_date": "2011-08-22",
+        "rating": 4.36,
+        "platform": [
+            "PlayStation 3",
+            "Xbox One",
+            "PC",
+            "macOS",
+            "Xbox 360"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "RPG"
+            }
+        ]
+    },
+    {
+        "id": 16113,
+        "name": "SLEEPING DOGS",
+        "img": "https://media.rawg.io/media/games/3d9/3d9bac98d79bcd2d445f829e8d6be902.jpg",
+        "Release_date": "2012-08-14",
+        "rating": 4.14,
+        "platform": [
+            "PC",
+            "Xbox 360",
+            "PlayStation 3"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Adventure"
+            }
+        ]
+    },
+    {
+        "id": 22121,
+        "name": "CELESTE",
+        "img": "https://media.rawg.io/media/games/594/59487800889ebac294c7c2c070d02356.jpg",
+        "Release_date": "2018-01-25",
+        "rating": 4.37,
+        "platform": [
+            "Xbox One",
+            "PC",
+            "macOS",
+            "Nintendo Switch",
+            "PlayStation 4",
+            "Linux"
+        ],
+        "genres": [
+            {
+                "name": "Indie"
+            },
+            {
+                "name": "Platformer"
+            }
+        ]
+    },
+    {
+        "id": 18336,
+        "name": "ALAN WAKE'S AMERICAN NIGHTMARE",
+        "img": "https://media.rawg.io/media/games/0b3/0b34647c42271600399b93d19b10f1aa.jpg",
+        "Release_date": "2012-02-22",
+        "rating": 3.41,
+        "platform": [
+            "Xbox 360",
+            "PC",
+            "Xbox One"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            }
+        ]
+    },
+    {
+        "id": 4101,
+        "name": "BAYONETTA",
+        "img": "https://media.rawg.io/media/games/bee/bee483efadcf9d7e657e52184316a34e.jpg",
+        "Release_date": "2009-06-23",
+        "rating": 4.3,
+        "platform": [
+            "PlayStation 4",
+            "PlayStation 3",
+            "Xbox 360",
+            "Wii U",
+            "PC",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Adventure"
+            }
+        ]
+    },
+    {
+        "id": 13194,
+        "name": "TO THE MOON",
+        "img": "https://media.rawg.io/media/games/fae/faebf3c8cbf30db3f46bfbecf6ada3d6.jpg",
+        "Release_date": "2011-01-10",
+        "rating": 4.29,
+        "platform": [
+            "PC",
+            "Nintendo Switch",
+            "Android",
+            "Linux",
+            "iOS",
+            "macOS"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Adventure"
+            },
+            {
+                "name": "RPG"
+            },
+            {
+                "name": "Casual"
+            },
+            {
+                "name": "Indie"
+            }
+        ]
+    },
+    {
+        "id": 14446,
+        "name": "CALL OF DUTY: BLACK OPS II",
+        "img": "https://media.rawg.io/media/games/8ee/8eed88e297441ef9202b5d1d35d7d86f.jpg",
+        "Release_date": "2012-11-13",
+        "rating": 3.96,
+        "platform": [
+            "Wii U",
+            "Xbox One",
+            "Xbox 360",
+            "PlayStation 3",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            }
+        ]
+    },
+    {
+        "id": 16343,
+        "name": "A STORY ABOUT MY UNCLE",
+        "img": "https://media.rawg.io/media/games/37a/37a9536e92cf8fe3b60045aa75dbd41f.jpg",
+        "Release_date": "2014-05-28",
+        "rating": 3.15,
+        "platform": [
+            "Linux",
+            "macOS",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Adventure"
+            },
+            {
+                "name": "Arcade"
+            },
+            {
+                "name": "Casual"
+            },
+            {
+                "name": "Indie"
+            },
+            {
+                "name": "Platformer"
+            }
+        ]
+    },
+    {
+        "id": 45821,
+        "name": "FROSTPUNK",
+        "img": "https://media.rawg.io/media/games/a88/a886c37bf112d009e318b106db9d420a.jpg",
+        "Release_date": "2018-04-24",
+        "rating": 4.19,
+        "platform": [
+            "Xbox One",
+            "Nintendo Switch",
+            "PlayStation 4",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Strategy"
+            },
+            {
+                "name": "Simulation"
+            }
+        ]
+    },
+    {
+        "id": 752,
+        "name": "SMITE",
+        "img": "https://media.rawg.io/media/games/cc7/cc77035eb972f179f5090ee2a0fabd99.jpg",
+        "Release_date": "2015-08-19",
+        "rating": 3.05,
+        "platform": [
+            "PlayStation 4",
+            "Nintendo Switch",
+            "Xbox One",
+            "macOS",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            }
+        ]
+    },
+    {
+        "id": 306124,
+        "name": "BORDERLANDS GAME OF THE YEAR ENHANCED",
+        "img": "https://media.rawg.io/media/games/df9/df988191048e92cf86dabd2987c47b62.jpg",
+        "Release_date": "2019-04-03",
+        "rating": 3.8,
+        "platform": [
+            "PC",
+            "Nintendo Switch",
+            "PlayStation 4",
+            "Xbox One"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            },
+            {
+                "name": "RPG"
+            }
+        ]
+    },
+    {
+        "id": 2728,
+        "name": "TOM CLANCY’S THE DIVISION",
+        "img": "https://media.rawg.io/media/games/c73/c73c4ffebfe968ba0982a56c2b5020ef.jpg",
+        "Release_date": "2016-03-07",
+        "rating": 3.7,
+        "platform": [
+            "PC",
+            "Xbox One",
+            "PlayStation 4"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            },
+            {
+                "name": "RPG"
+            }
+        ]
+    },
+    {
+        "id": 20406,
+        "name": "TEAM FORTRESS CLASSIC",
+        "img": "https://media.rawg.io/media/games/abd/abdb7e589f0a8ccd36c0582673120b1e.jpg",
+        "Release_date": "1999-04-01",
+        "rating": 2.92,
+        "platform": [
+            "Linux",
+            "macOS",
+            "PC"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            },
+            {
+                "name": "Massively Multiplayer"
+            }
+        ]
+    },
+    {
+        "id": 58550,
+        "name": "GHOST OF TSUSHIMA",
+        "img": "https://media.rawg.io/media/games/f24/f2493ea338fe7bd3c7d73750a85a0959.jpeg",
+        "Release_date": "2020-07-17",
+        "rating": 4.41,
+        "platform": [
+            "PlayStation 4",
+            "PC",
+            "PlayStation 5"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Adventure"
+            },
+            {
+                "name": "RPG"
+            }
+        ]
+    },
+    {
+        "id": 4123,
+        "name": "BATMAN: ARKHAM ASYLUM",
+        "img": "https://media.rawg.io/media/games/d56/d564ee964eb3c17892b3b35dd607f836.jpg",
+        "Release_date": "2009-08-25",
+        "rating": 4.4,
+        "platform": [
+            "Nintendo Switch",
+            "macOS",
+            "PC",
+            "PlayStation 4",
+            "PlayStation 3",
+            "Xbox 360",
+            "Xbox One"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            }
+        ]
+    },
+    {
+        "id": 15426,
+        "name": "BLACK MESA",
+        "img": "https://media.rawg.io/media/games/009/009e4e84975d6a60173ec1199db25aa3.jpg",
+        "Release_date": "2020-03-06",
+        "rating": 4.35,
+        "platform": [
+            "PC",
+            "Linux"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            },
+            {
+                "name": "Indie"
+            }
+        ]
+    },
+    {
+        "id": 4094,
+        "name": "METAL GEAR RISING: REVENGEANCE",
+        "img": "https://media.rawg.io/media/games/8e6/8e699e91cf77c2060b6d515e2135b1b1.jpg",
+        "Release_date": "2013-02-19",
+        "rating": 4.25,
+        "platform": [
+            "PlayStation 3",
+            "Xbox 360",
+            "PC",
+            "Android",
+            "Xbox One"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            }
+        ]
+    },
+    {
+        "id": 12756,
+        "name": "WARHAMMER 40,000: SPACE MARINE",
+        "img": "https://media.rawg.io/media/games/ac2/ac25b5cef220bf5b8d052e0978451cab.jpg",
+        "Release_date": "2011-09-05",
+        "rating": 3.48,
+        "platform": [
+            "PC",
+            "PlayStation 3",
+            "Xbox 360"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            }
+        ]
+    },
+    {
+        "id": 4573,
+        "name": "PAYDAY THE HEIST",
+        "img": "https://media.rawg.io/media/games/546/546cf59a24b0ae308e311a07611ca22f.jpg",
+        "Release_date": "2011-10-18",
+        "rating": 3.35,
+        "platform": [
+            "PC",
+            "PlayStation 3"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            }
+        ]
+    },
+    {
+        "id": 2553,
+        "name": "RATCHET & CLANK",
+        "img": "https://media.rawg.io/media/games/d30/d30ef0c7dd4878161b1f781e297ae6a0.jpg",
+        "Release_date": "2016-04-12",
+        "rating": 4.05,
+        "platform": [
+            "PlayStation 4"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Shooter"
+            },
+            {
+                "name": "Adventure"
+            }
+        ]
+    },
+    {
+        "id": 42895,
+        "name": "ASSASSIN'S CREED SYNDICATE",
+        "img": "https://media.rawg.io/media/games/9f1/9f189c639f70f91166df415811a8b525.jpg",
+        "Release_date": "2015-10-23",
+        "rating": 3.67,
+        "platform": [
+            "PC",
+            "Xbox One",
+            "PlayStation 4"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            }
+        ]
+    },
+    {
+        "id": 9966,
+        "name": "DEAD BY DAYLIGHT",
+        "img": "https://media.rawg.io/media/games/e11/e11325e2f89151d31f612e38dee3b6a0.jpg",
+        "Release_date": "2016-06-14",
+        "rating": 3.5,
+        "platform": [
+            "Nintendo Switch",
+            "PC",
+            "PlayStation 4",
+            "Xbox One",
+            "PlayStation 5"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            }
+        ]
+    },
+    {
+        "id": 3631,
+        "name": "INFAMOUS SECOND SON",
+        "img": "https://media.rawg.io/media/games/be2/be239d5eb4d0bf02bf722aff51e694ad.jpg",
+        "Release_date": "2014-03-21",
+        "rating": 3.91,
+        "platform": [
+            "PlayStation 4"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            }
+        ]
+    },
+    {
+        "id": 14512,
+        "name": "AGE OF WONDERS III",
+        "img": "https://media.rawg.io/media/games/f95/f95ec06eddda5c5bf206618c49cd3e68.jpg",
+        "Release_date": "2014-03-31",
+        "rating": 2.92,
+        "platform": [
+            "PC",
+            "macOS",
+            "Linux"
+        ],
+        "genres": [
+            {
+                "name": "RPG"
+            },
+            {
+                "name": "Strategy"
+            }
+        ]
+    },
+    {
+        "id": 30899,
+        "name": "MAFIA: THE CITY OF LOST HEAVEN",
+        "img": "https://media.rawg.io/media/games/74c/74ca0ec569682a150f3c6f9f661fb6a5.jpg",
+        "Release_date": "2002-08-28",
+        "rating": 4.36,
+        "platform": [
+            "PlayStation 2",
+            "PC",
+            "Xbox"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            }
+        ]
+    },
+    {
+        "id": 2597,
+        "name": "LEGO THE LORD OF THE RINGS",
+        "img": "https://media.rawg.io/media/games/89a/89a700d3c6a76bd0610ca89ccd20da54.jpg",
+        "Release_date": "2012-10-30",
+        "rating": 3.56,
+        "platform": [
+            "PC",
+            "iOS",
+            "Nintendo DS",
+            "PlayStation 3",
+            "Nintendo 3DS",
+            "Xbox 360",
+            "Wii",
+            "PS Vita",
+            "Android"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            },
+            {
+                "name": "Adventure"
+            }
+        ]
+    },
+    {
+        "id": 18614,
+        "name": "HALF-LIFE: SOURCE",
+        "img": "https://media.rawg.io/media/games/d54/d54f0267a042f44c032d8ca264584ecf.jpg",
+        "Release_date": "2004-06-01",
+        "rating": 3.71,
+        "platform": [
+            "Linux",
+            "PC",
+            "macOS"
+        ],
+        "genres": [
+            {
+                "name": "Action"
+            }
+        ]
+    }
+]
