@@ -1,0 +1,1 @@
+puede ser cambiado a esta extencion (o .png/.drawio)

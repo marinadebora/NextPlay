@@ -1,0 +1,1 @@
+puede ser cambiado a esta extencion (estructuras y sus conexiones)
