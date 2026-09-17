@@ -17,7 +17,7 @@ def _mostrar(resultados):
         print("No se encontraron videojuegos.")
         return
     for juego in resultados:
-        print(f"- {juego}")
+        print(juego)
 
 
 def _pedir_float_opcional(mensaje):

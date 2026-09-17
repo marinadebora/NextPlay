@@ -69,4 +69,4 @@ class VideoJuego:
     def __repr__(self):
         generos = ", ".join(self._genres)
         plataformas = ", ".join(self._platform)
-        return f"{self._name} ({generos}) [{plataformas}] estrellas:{self._rating}"
+        return f"\n=========== NextPlay =========== \n{self._name}\n({generos})\n[{plataformas}]\nestrellas: {self._rating}\n================================"
