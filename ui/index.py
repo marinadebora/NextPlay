@@ -50,14 +50,48 @@ def iniciar(juegos):
             _mostrar(filtrar(juegos, genero=genero, plataforma=plataforma, rating_min=rating_min))
 
         elif opcion == "4":
-            # TODO (Agustina): pedir nombre, buscar el juego exacto y mostrar TODOS sus datos
-            # (name, rating, release_date, platform, genres) con formato lindo.
-            pass
+            nombre = input("Ingresa el nombre del videojuego: ").strip()
+            resultados = buscar_por_nombre(juegos, nombre)
+
+            if not resultados:
+                print("No se encontro ningun videojuego con ese nombre.")
+            else:
+                juego = resultados[0]
+                generos = ", ".join(juego.genres)
+                plataformas = ", ".join(juego.platform)
+
+                print("\n--- Detalle del videojuego ---")
+                print(f"Nombre: {juego.name}")
+                print(f"Rating: {juego.rating}")
+                print(f"Fecha de lanzamiento: {juego.release_date}")
+                print(f"Plataformas: {plataformas}")
+                print(f"Generos: {generos}")
 
         elif opcion == "5":
-            # TODO (Agustina): pedir dos nombres, buscar cada uno con buscar_por_nombre,
-            # y mostrar cual tiene mejor rating (o avisar si no se encontro alguno).
-            pass
+            nombre1 = input("Nombre del primer videojuego: ").strip()
+            nombre2 = input("Nombre del segundo videojuego: ").strip()
+
+            resultado1 = buscar_por_nombre(juegos, nombre1)
+            resultado2 = buscar_por_nombre(juegos, nombre2)
+
+            if not resultado1 or not resultado2:
+                if not resultado1:
+                    print(f"No se encontro '{nombre1}'.")
+                if not resultado2:
+                    print(f"No se encontro '{nombre2}'.")
+            else:
+                juego1 = resultado1[0]
+                juego2 = resultado2[0]
+
+                print(f"\n{juego1.name}: rating {juego1.rating}")
+                print(f"{juego2.name}: rating {juego2.rating}")
+
+                if juego1.rating > juego2.rating:
+                    print(f"\n{juego1.name} tiene mejor rating.")
+                elif juego2.rating > juego1.rating:
+                    print(f"\n{juego2.name} tiene mejor rating.")
+                else:
+                    print("\nEstan empatados en rating.")
 
         elif opcion == "0":
             print("Hasta la proxima!")
