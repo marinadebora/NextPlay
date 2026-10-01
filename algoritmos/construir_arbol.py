@@ -1,9 +1,7 @@
-from estructuras.arbol_busqueda_nombre import Arbol, Nodo
-
 # recive una lista con todos los OBJETOS de video juegos
-def construir_arbol(lista):
+def construir_arbol(lista, Arbol, Nodo, criterio):
   	# Ordena la lista alfabeticamente por nombre.
-    lista_ordenada =sorted(lista, key=lambda x: x.name)
+    lista_ordenada =sorted(lista, key= criterio)
     # Si lalista contiene elementos... 
     if len(lista_ordenada) > 0:
         # Obtiene la posicion del elemento central.
