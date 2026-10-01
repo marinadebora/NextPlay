@@ -13,15 +13,13 @@ def main():
     if opcion == "1":
         print("Iniciando version 1.0...")
         iniciar(juegos)
-    if opcion == "2":
+    elif opcion == "2":
         print("Iniciando version 2.0...")
         iniciar_version2(juegos)
-    if opcion == "0":
+    elif opcion == "0":
         print("Hasta la proxima!")
         return
-    else:
-        print("Opcion invalida. Saliendo del programa.")
-        return
+   
 
 if __name__ == "__main__":
     main()
