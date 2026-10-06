@@ -59,3 +59,55 @@ class Arbol():
 		else:
 			# si es mayor llama a la funcion recursiva con el nodo de la derecha.
 			return self._buscar_recursivo(nodo.derecha, name)
+
+# ---------------------------------------------------------------------------------#
+	# TIPOS DE RECORRIDO (TP3)
+	# preorder: raiz, izquierda, derecha
+	def preorder(self, nodo):
+		lista = []
+		if nodo is None:
+			return lista
+		else:
+			return self.preorder_recursivo(nodo, lista)
+
+	def preorder_recursivo(self, nodo, lista):
+		if nodo is None:
+			return
+		lista.append(nodo.valor)
+		self.preorder_recursivo(nodo.izquierda, lista)
+		self.preorder_recursivo(nodo.derecha, lista)
+		return lista
+
+	# inorder: izquierda, raiz, derecha.
+	# Sobre este arbol (ordenado por name) el inorder da la lista completa
+	# ordenada alfabeticamente "gratis", sin volver a ordenar.
+	def inorder(self, nodo):
+		lista = []
+		if nodo is None:
+			return lista
+		else:
+			return self.inorder_recursivo(nodo, lista)
+
+	def inorder_recursivo(self, nodo, lista):
+		if nodo is None:
+			return
+		self.inorder_recursivo(nodo.izquierda, lista)
+		lista.append(nodo.valor)
+		self.inorder_recursivo(nodo.derecha, lista)
+		return lista
+
+	# postorder: izquierda, derecha, raiz
+	def postorder(self, nodo):
+		lista = []
+		if nodo is None:
+			return lista
+		else:
+			return self.postorder_recursivo(nodo, lista)
+
+	def postorder_recursivo(self, nodo, lista):
+		if nodo is None:
+			return
+		self.postorder_recursivo(nodo.izquierda, lista)
+		self.postorder_recursivo(nodo.derecha, lista)
+		lista.append(nodo.valor)
+		return lista
