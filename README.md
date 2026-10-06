@@ -9,9 +9,8 @@ La aplicación utiliza información obtenida de una API especializada en videoju
 
 > **Grupo 8**
 
-- Ragonese Gianluca
-- Santini Agustina
 - Carabajal Débora
+- Ragonese Gianluca
 
 ---
 
