@@ -9,9 +9,8 @@ La aplicación utiliza información obtenida de una API especializada en videoju
 
 > **Grupo 8**
 
-- Ragonese Gianluca
-- Santini Agustina
 - Carabajal Débora
+- Ragonese Gianluca
 
 ---
 
@@ -101,3 +100,4 @@ proyecto/
 - [Diagrama de datos](./docs/04-diagrama-datos.md)
 - [Gestión del proyecto](./docs/05-gestion-proyecto.md)
 - [Análisis de complejidad (árbol vs. búsqueda secuencial)](./docs/06-analisis-complejidad.md)
+
