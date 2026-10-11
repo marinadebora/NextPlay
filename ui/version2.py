@@ -1,14 +1,15 @@
 from ui.menu import MENU
 from algoritmos.construir_arbol import construir_arbol
+from algoritmos.construir_arbol_avl import construir_arbol_avl
 from servicios.index import buscar_por_nombre, filtrar
 from ui.index import _mostrar, ver_detalle_videojuego, Comparar_dos_videojuegos
 from estructuras.arbol_busqueda_nombre import Arbol as Arbol_name, Nodo as Nodo_name
 from estructuras.arbol_busqueda_rating import Arbol as Arbol_rating, Nodo as Nodo_rating
 
-
 def iniciar_version2(juegos):
   arbol_nombre = construir_arbol(juegos, Arbol_name, Nodo_name, lambda x: x.name)
   arbol_rating = construir_arbol(juegos, Arbol_rating, Nodo_rating, lambda x: x.rating)
+  arbol_nombre_avl = construir_arbol_avl(juegos)
 
   while True:
     print(MENU)
@@ -20,8 +21,10 @@ def iniciar_version2(juegos):
         
         if tipo_busqueda == "1":
             nombre = input("Ingresa el nombre exacto del videojuego: ").strip()
-            resultados = arbol_nombre.buscar(nombre)
-            print(f"\nResultados de la busqueda por nombre exacto: {resultados}")
+            resultados_BST = arbol_nombre.buscar(nombre)
+            resultados_AVL = arbol_nombre_avl.buscar(nombre)
+            print(f"\nResultados de la busqueda por nombre exacto en BST: {resultados_BST}")
+            print(f"Resultados de la busqueda por nombre exacto en AVL: {resultados_AVL}")
         elif tipo_busqueda == "2":
             nombre = input("Ingresa el nombre parcial del videojuego: ").strip()
             resultados = buscar_por_nombre(juegos, nombre)
@@ -29,7 +32,9 @@ def iniciar_version2(juegos):
     
     if opcion == "2":
         print("Listando todos los videojuegos...")
-        _mostrar(juegos)
+        # Se obtiene la lista ordenada de videojuegos utilizando el recorrido inorden del árbol AVL
+        lista_ordenada = arbol_nombre_avl.inorder(arbol_nombre_avl.raiz)
+        _mostrar(lista_ordenada)
     
     if opcion == "3":
         print("seleccione tipo de busqueda: \n 1. por genero \n 2. por plataforma \n 3. por rating minimo")
