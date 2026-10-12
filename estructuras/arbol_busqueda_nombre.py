@@ -61,6 +61,27 @@ class Arbol():
 			return self._buscar_recursivo(nodo.derecha, name)
 
 # ---------------------------------------------------------------------------------#
+	# altura del arbol (TP4): cantidad de niveles desde la raiz hasta la hoja mas profunda.
+	# Es iterativa (recorre por niveles) para que funcione tambien con un arbol
+	# degenerado de miles de niveles, donde una version recursiva superaria el
+	# limite de recursion de Python.
+	def altura(self):
+		if self.raiz is None:
+			return 0
+		altura = 0
+		nivel = [self.raiz]
+		while nivel:
+			altura += 1
+			siguiente = []
+			for nodo in nivel:
+				if nodo.izquierda is not None:
+					siguiente.append(nodo.izquierda)
+				if nodo.derecha is not None:
+					siguiente.append(nodo.derecha)
+			nivel = siguiente
+		return altura
+
+# ---------------------------------------------------------------------------------#
 	# TIPOS DE RECORRIDO (TP3)
 	# preorder: raiz, izquierda, derecha
 	def preorder(self, nodo):
