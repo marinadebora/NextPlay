@@ -85,23 +85,21 @@ class Arbol:
     balance = self.factor_balance(nodo)
 
     # Realiza las rotaciones necesarias para mantener el árbol balanceado.
-    # Si el nodo está desbalanceado, hay cuatro casos posibles:
-    # Si el nodo está desbalanceado hacia la izquierda y el valor es menor que el valor del hijo izquierdo.
-    if balance > 1 and valor.name.lower() < nodo.izquierda.valor.name.lower():
-      # Realiza una rotación a la derecha.
+    # Para decidir el caso se mira el factor de balance del hijo (y no el valor
+    # insertado): asi tambien funciona cuando hay nombres repetidos, que el
+    # arbol manda siempre hacia la derecha.
+    # Caso izquierda-izquierda: rotacion simple a la derecha.
+    if balance > 1 and self.factor_balance(nodo.izquierda) >= 0:
       return self.rotacion_derecha(nodo)
-    # Si el nodo está desbalanceado hacia la derecha y el valor es mayor que el valor del hijo derecho.
-    if balance < -1 and valor.name.lower() > nodo.derecha.valor.name.lower():
-      # Realiza una rotación a la izquierda.
+    # Caso derecha-derecha: rotacion simple a la izquierda.
+    if balance < -1 and self.factor_balance(nodo.derecha) <= 0:
       return self.rotacion_izquierda(nodo)
-    # Si el nodo está desbalanceado hacia la izquierda y el valor es mayor que el valor del hijo izquierdo.
-    if balance > 1 and valor.name.lower() > nodo.izquierda.valor.name.lower():
-      # Realiza una rotación a la izquierda en el hijo izquierdo y luego una rotación a la derecha en el nodo actual.
+    # Caso izquierda-derecha: rotacion izquierda en el hijo y luego derecha en el nodo.
+    if balance > 1 and self.factor_balance(nodo.izquierda) < 0:
       nodo.izquierda = self.rotacion_izquierda(nodo.izquierda)
       return self.rotacion_derecha(nodo)
-    # Si el nodo está desbalanceado hacia la derecha y el valor es menor que el valor del hijo derecho.
-    if balance < -1 and valor.name.lower() < nodo.derecha.valor.name.lower():
-      # Realiza una rotación a la derecha en el hijo derecho y luego una rotación a la izquierda en el nodo actual.
+    # Caso derecha-izquierda: rotacion derecha en el hijo y luego izquierda en el nodo.
+    if balance < -1 and self.factor_balance(nodo.derecha) > 0:
       nodo.derecha = self.rotacion_derecha(nodo.derecha)
       return self.rotacion_izquierda(nodo)
 

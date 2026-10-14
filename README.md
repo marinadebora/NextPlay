@@ -68,6 +68,22 @@ Ambos árboles se construyen balanceados con `algoritmos/construir_arbol.py` (se
 
 La comparación de rendimiento del árbol por nombre contra la búsqueda secuencial del TP2 está en [`docs/06-analisis-complejidad.md`](./docs/06-analisis-complejidad.md).
 
+## Estructuras de datos (TP4 — AVL)
+
+El TP4 suma un **árbol AVL** (`estructuras/arbol_avl.py`), un árbol binario de búsqueda que se mantiene balanceado solo mientras se insertan juegos (factor de balance y las 4 rotaciones: izquierda-izquierda, derecha-derecha, izquierda-derecha y derecha-izquierda).
+
+| Árbol | Archivo | Clave de ordenamiento | Dónde se usa |
+|---|---|---|---|
+| AVL por nombre | `estructuras/arbol_avl.py` | `name` (alfabético, sin distinguir mayúsculas) | Versión 2: búsqueda por nombre exacto (opción 1) y listado ordenado con `inorder` (opción 2) |
+
+Se arma con `algoritmos/construir_arbol_avl.py`, insertando los juegos de a uno. El experimento que lo compara con el BST común (insertando los nombres ya ordenados, que degrada al BST en una lista enlazada) está en `algoritmos/experimento_balance.py`:
+
+```bash
+python -m algoritmos.experimento_balance
+```
+
+Los resultados, la explicación del AVL y la conclusión técnica están en [`docs/07-bst-vs-avl.md`](./docs/07-bst-vs-avl.md). Las pruebas del AVL están en `tests/test_avl.py`.
+
 ## Estructura del repositorio
 
 ```text
@@ -80,7 +96,8 @@ proyecto/
 │   ├── 03-diagrama-clases.md
 │   ├── 04-diagrama-datos.md
 │   ├── 05-gestion-proyecto.md
-│   └── 06-analisis-complejidad.md
+│   ├── 06-analisis-complejidad.md
+│   └── 07-bst-vs-avl.md
 ├── estructuras/
 ├── datos/
 ├── modelos/
@@ -100,4 +117,4 @@ proyecto/
 - [Diagrama de datos](./docs/04-diagrama-datos.md)
 - [Gestión del proyecto](./docs/05-gestion-proyecto.md)
 - [Análisis de complejidad (árbol vs. búsqueda secuencial)](./docs/06-analisis-complejidad.md)
-
+- [Desbalance del árbol y AVL (BST vs. AVL)](./docs/07-bst-vs-avl.md)
