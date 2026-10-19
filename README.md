@@ -37,14 +37,15 @@ python main.py
 ```
 ### 3. Menú principal
 
-Al iniciar la aplicación, se puede elegir entre la versión 1.0 (TP1/TP2) y la versión 2.0 (TP3, con el árbol binario integrado a la búsqueda y al filtro por rating):
+Al iniciar la aplicación, se puede elegir entre la versión 1.0 (TP1/TP2), la versión 2.0 (TP3/TP4, con el árbol binario y el AVL integrados a la búsqueda y al filtro por rating) y la versión 3.0 (TP5, con el árbol general de categorías en el filtro por género y plataforma):
 ```bash
-=== NextPlay ===
-1. version 1.0
-2. version 2.0
+==== NextPlay ====
+1. Versión 1.0
+2. Versión 2.0
+3. Versión 3.0
 0. Salir
 ```
-Ambas versiones comparten el mismo catálogo de juegos (`datos/VideoGames.JSON`) y el mismo menú de opciones:
+Las tres versiones comparten el mismo catálogo de juegos (`datos/VideoGames.JSON`) y el mismo menú de opciones:
 ```bash
 === NextPlay ===
 1. Buscar videojuegos por nombre
@@ -84,6 +85,27 @@ python -m algoritmos.experimento_balance
 
 Los resultados, la explicación del AVL y la conclusión técnica están en [`docs/07-bst-vs-avl.md`](./docs/07-bst-vs-avl.md). Las pruebas del AVL están en `tests/test_avl.py`.
 
+## Estructuras de datos (TP5 — árbol general)
+
+El TP5 suma un **árbol general (n-ario)** de categorías (`estructuras/arbol_genral.py`). A diferencia de los árboles anteriores no se ordena por una clave: representa la jerarquía natural del catálogo, donde cada nodo puede tener cualquier cantidad de hijos.
+
+```text
+genres (o platform)
+├── Action
+│   ├── juego 1
+│   └── juego 2
+├── RPG
+│   └── ...
+└── ...
+```
+
+| Árbol | Archivo | Jerarquía | Dónde se usa |
+|---|---|---|---|
+| Por género | `estructuras/arbol_genral.py` (se arma con `algoritmos/construir_arbol_general.py`) | criterio `genres` → género → juegos | Versión 3: filtro por género (opción 3 → 1) |
+| Por plataforma | el mismo, con criterio `platform` | criterio `platform` → plataforma → juegos | Versión 3: filtro por plataforma (opción 3 → 2) |
+
+Un juego con más de un género (o plataforma) aparece bajo cada una de sus categorías. El árbol ofrece búsqueda de una categoría y los recorridos `preorder`, `postorder`, `inorder` y `por_nivel`. La explicación de la jerarquía, la complejidad de las operaciones, ejemplos de recorridos y la comparación con el filtro lineal están en [`docs/08-arbol-general.md`](./docs/08-arbol-general.md). Las pruebas están en `tests/test_arbol_general.py`.
+
 ## Estructura del repositorio
 
 ```text
@@ -97,7 +119,8 @@ proyecto/
 │   ├── 04-diagrama-datos.md
 │   ├── 05-gestion-proyecto.md
 │   ├── 06-analisis-complejidad.md
-│   └── 07-bst-vs-avl.md
+│   ├── 07-bst-vs-avl.md
+│   └── 08-arbol-general.md
 ├── estructuras/
 ├── datos/
 ├── modelos/
@@ -118,3 +141,4 @@ proyecto/
 - [Gestión del proyecto](./docs/05-gestion-proyecto.md)
 - [Análisis de complejidad (árbol vs. búsqueda secuencial)](./docs/06-analisis-complejidad.md)
 - [Desbalance del árbol y AVL (BST vs. AVL)](./docs/07-bst-vs-avl.md)
+- [Árbol general de categorías (versión 3)](./docs/08-arbol-general.md)
