@@ -8,7 +8,7 @@ PLATFORM = {
 7: "Atari 2600",
 8: "Atari ST",
 9: "Atari 5200",
-10: "tari 7800",
+10: "Atari 7800",
 11: "Classic Macintosh",
 12: "Commodore / Amiga",
 13: "Dreamcast",
