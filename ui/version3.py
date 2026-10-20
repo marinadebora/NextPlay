@@ -41,30 +41,46 @@ def iniciar_version_3(juegos ):
     if opcion == "3":
       print(MENU_FILTRO)
       tipo_filtro = input("Elegí una opción: ").strip()
+      
       if tipo_filtro == "1":
         print(GENEROS)
-        genero = int(input("Elegí una opción: ").strip())
-        if genero <= 18 and genero > 0 :
-          resultado = buscar_por_categoria(arbol_general_genres, GENRES[genero])
-        else:
-          print("Elegí una opción correcta")
+        try:
+          genero = int(input("Elegí una opción: ").strip())
+          if genero <= 19 and genero > 0 :
+            resultado = buscar_por_categoria(arbol_general_genres, GENRES[genero])
+          else:
+            print("Elegí una opción correcta")
+            break
+        except ValueError:
+          print("Entrada inválida. Ingresá un número.")
 
       elif tipo_filtro == "2":
         print(PLATAFORMAS)
-        plataforma = int(input("Elegí una opción: ").strip())
-        if plataforma <= 50 and plataforma > 0:
-          resultado = buscar_por_categoria(arbol_general_platform, PLATFORM[plataforma])
-        else:
-          print("Elegí una opción correcta")
-        
+
+        while True:
+          try:
+            plataforma = int(input("Elegí una opción: ").strip())
+            if plataforma <= 50 and plataforma > 0:
+              resultado = buscar_por_categoria(arbol_general_platform, PLATFORM[plataforma])
+            else:
+              print("Elegí una opción correcta")
+              break
+          except ValueError:
+            print("Entrada inválida. Ingresá un número.")
+
       elif tipo_filtro == "3":
-        rating_min = input("Rating minimo (enter para omitir): ").strip() or None
-        if rating_min is None:
-          resultados = arbol_BST_rating.inorder(arbol_BST_rating.raiz) 
-          print(f"\nResultados de la busqueda por rating minimo: {resultados}")
-        else:
-          resultados = arbol_BST_rating.buscar_desde(float(rating_min))
-          print(f"\nResultados de la busqueda por rating minimo: {resultados}")
+        while True:
+          try:
+            rating_min = input("Rating minimo (enter para omitir): ").strip()
+            if rating_min == "":              
+              resultados = arbol_BST_rating.inorder(arbol_BST_rating.raiz) 
+              print(f"\nResultados de la busqueda por rating minimo: {resultados}")
+            else:
+              resultados = arbol_BST_rating.buscar_desde(float(rating_min))
+              print(f"\nResultados de la busqueda por rating minimo: {resultados}")
+              break
+          except ValueError:
+            print("Entrada inválida. Ingresá un número.")
       
       else:
         print("Opcion invalida.")
