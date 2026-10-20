@@ -16,4 +16,6 @@ GENRES = {
 15: "Fighting",
 16: "Family", 
 17:"Board Games",
-18: "Card"}
+18: "Card",
+19: "Educational"
+}
