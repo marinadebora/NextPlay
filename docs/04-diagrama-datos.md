@@ -60,3 +60,35 @@ flowchart TD
 - **Búsquedas secuenciales:** recorren los videojuegos para encontrar los datos necesarios para operaciones como consultar el detalle o comparar videojuegos.
 
 Las estructuras utilizan objetos `VideoJuego` como elementos de información. Cada árbol mantiene su propia organización según el criterio de búsqueda correspondiente, mientras que las búsquedas secuenciales recorren los elementos del catálogo según la operación que se necesita realizar.
+
+## version 3
+```mermaid
+flowchart TD
+    A["VideoGames.JSON"] --> B["Carga y construcción de objetos"]
+    B --> C["Objetos VideoJuego"]
+
+    C --> D["Árbol BST"]   
+    C --> E["Árbol AVL"]   
+    C --> F["Árbol General"]
+
+    D --> G["Búsqueda y ordenamiento por rating"]
+    D --> H["Búsqueda por nombre exacto"]
+
+    E --> I["Búsqueda por nombre exacto"]
+    E --> J["Listar ordenado inorder"]
+   
+    F --> K["Búsqueda y ordenamiento por genero y plataforma"]
+    
+    H --> L["Detalle de un videojuego"]
+    H --> M["Comparación de videojuegos"]
+
+```
+
+## Descripción de las estructuras
+
+- **VideoGames.JSON:** archivo que contiene los datos del catálogo de videojuegos.
+- **VideoJuego:** clase que representa cada videojuego y sus atributos.
+- **Árbol binario de búsqueda (BST):** organiza los videojuegos por nombre y permite realizar búsquedas por nombre exacto, se utiliza para buscar el detalle y para comparar dos videojuegos.
+- **Árbol (AVL):** árbol de búsqueda balanceado por nombre que mantiene su altura controlada durante las inserciones organiza los videojuegos por nombre y permite realizar búsquedas por nombre exacto, tambien ordena inorder para listar todos los videojuegos.
+- **Árbol de búsqueda por rating (BST):** organiza los videojuegos según su puntuación para facilitar las consultas y el ordenamiento por rating.
+- **Árbol General:** organiza los videojuegos por categorias, generos o plataformas.
