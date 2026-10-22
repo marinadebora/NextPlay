@@ -16,7 +16,7 @@ def iniciar_version2(juegos):
     opcion = input("Elegi una opcion: ").strip()
 
     if opcion == "1":
-        print("seleccione tipo de busqueda: \n 1. por nombre exacto. \n 2. por nombre parcial.")
+        print("seleccione tipo de busqueda: \n 1. por nombre exacto. \n 2. por nombre parcial. \n 0. Volver.")
         tipo_busqueda = input("Elegi una opcion: ").strip()
         
         if tipo_busqueda == "1":
@@ -29,15 +29,18 @@ def iniciar_version2(juegos):
             nombre = input("Ingresa el nombre parcial del videojuego: ").strip()
             resultados = buscar_por_nombre(juegos, nombre)
             print(f"\nResultados de la busqueda por nombre parcial: {resultados}")
-    
-    if opcion == "2":
+        elif tipo_busqueda == "0":
+            print("Volviendo al menú anterior...")
+        else:
+            print("Opcion invalida.")
+    elif opcion == "2":
         print("Listando todos los videojuegos...")
         # Se obtiene la lista ordenada de videojuegos utilizando el recorrido inorden del árbol AVL
         lista_ordenada = arbol_nombre_avl.inorder(arbol_nombre_avl.raiz)
         _mostrar(lista_ordenada)
     
-    if opcion == "3":
-        print("seleccione tipo de busqueda: \n 1. por genero \n 2. por plataforma \n 3. por rating minimo")
+    elif opcion == "3":
+        print("seleccione tipo de busqueda: \n 1. por genero \n 2. por plataforma \n 3. por rating minimo \n0.Volver.")
         tipo_filtro = input("Elegi una opcion: ").strip()
         if tipo_filtro == "1":
             genero = input("Genero (enter para omitir): ").strip() or None
@@ -49,19 +52,25 @@ def iniciar_version2(juegos):
             rating_min = input("Rating minimo (enter para omitir): ").strip() or None
             if rating_min is None:
                 resultados = arbol_rating.inorder(arbol_rating.raiz) 
-                print(f"\nResultados de la busqueda por rating minimo: {resultados}")
+                print("\nResultados de la busqueda por rating minimo:")
+                print(*resultados)
             else:
                 resultados = arbol_rating.buscar_desde(float(rating_min))
-                print(f"\nResultados de la busqueda por rating minimo: {resultados}")
+                print("\nResultados de la busqueda por rating minimo:")
+                print(*resultados)
+        elif tipo_filtro == "0":
+            print("Volviendo al menú anterior...")
         else:
             print("Opcion invalida.")
     
-    if opcion == "4":
+    elif opcion == "4":
         ver_detalle_videojuego(juegos)
     
-    if opcion == "5":
+    elif opcion == "5":
         Comparar_dos_videojuegos(juegos)  
     
-    if opcion == "0":
+    elif opcion == "0":
         print("Hasta la proxima!")
-        break
+        return
+    else:
+        print("Opcion invalida.")

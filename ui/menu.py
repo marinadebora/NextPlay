@@ -1,12 +1,12 @@
 MENU = """
-===================== NextPlay =====================
-| 1. Buscar videojuegos por nombre                  | 
-| 2. Listar todos los videojuegos                   | 
-| 3. Filtrar por género / plataforma / rating mínimo| 
-| 4. Ver detalle de un videojuego                   | 
-| 5. Comparar dos videojuegos                       | 
-| 0. Salir                                          | 
-====================================================
+===================== NextPlay ======================
+| 1. Buscar videojuegos por nombre                   | 
+| 2. Listar todos los videojuegos                    | 
+| 3. Filtrar por género / plataforma / rating mínimo | 
+| 4. Ver detalle de un videojuego                    | 
+| 5. Comparar dos videojuegos                        | 
+| 0. Salir                                           | 
+=====================================================
 """
 MENU_MAIN = """
 ==== NextPlay ====
@@ -17,18 +17,20 @@ MENU_MAIN = """
 =================
 """
 MENU_NOMBRE = """
-========== NextPlay ==========
-Seleccione tipo de búsqueda:  |
-1. Por nombre exacto.         |
-2. Por nombre parcial.        |
-==============================
+=========== NextPlay ===========
+| Seleccione tipo de búsqueda:  |
+| 1. Por nombre exacto.         |
+| 2. Por nombre parcial.        |
+| 0. Volver al menú anterior    |
+================================
 """
 MENU_FILTRO = """
 =========== NextPlay ===========
 | Seleccione tipo de búsqueda:  |
 | 1. Por género                 |
 | 2. Por plataforma             |
-| 3. Por rating mínimo          | 
+| 3. Por rating mínimo          |
+| 0. Volver al menú anterior    |
 ================================
 """
 GENEROS = """ 
