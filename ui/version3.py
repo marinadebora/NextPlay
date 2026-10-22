@@ -1,9 +1,9 @@
 from ui.menu import MENU, MENU_NOMBRE, MENU_FILTRO, GENEROS, PLATAFORMAS
 from config import GENRES, PLATFORM
-from ui.index import _mostrar, ver_detalle_videojuego, Comparar_dos_videojuegos
+from ui.index import _mostrar
 from algoritmos import construir_arbol, construir_arbol_avl, construir_arbol_general,buscar_por_categoria
 from estructuras import arbol_nombre, nodo_nombre, arbol_ratin, nodo_ratin
-from servicios.index import buscar_por_nombre, filtrar
+from servicios.index import buscar_por_nombre
 
 def iniciar_version_3(juegos ):
   arbol_BST_nombre = construir_arbol(juegos, arbol_nombre, nodo_nombre, lambda x: x.name)
@@ -30,15 +30,19 @@ def iniciar_version_3(juegos ):
         nombre = input("Ingresa el nombre parcial del videojuego: ").strip()
         resultados = buscar_por_nombre(juegos, nombre)
         print(f"\nResultados de la búsqueda por nombre parcial: {resultados}")
+      elif tipo_busqueda == "0":
+         print("Volviendo al menú anterior...")
+      else:
+        print("Opcion invalida.")
     
-    if opcion == "2":
+    elif opcion == "2":
       print("Listando todos los videojuegos...")
 
       # Se obtiene la lista ordenada de videojuegos utilizando el recorrido inorden del árbol AVL
       lista_ordenada = arbol_avl.inorder(arbol_avl.raiz)
       _mostrar(lista_ordenada)
 
-    if opcion == "3":
+    elif opcion == "3":
       print(MENU_FILTRO)
       tipo_filtro = input("Elegí una opción: ").strip()
       
@@ -74,17 +78,22 @@ def iniciar_version_3(juegos ):
             rating_min = input("Rating minimo (enter para omitir): ").strip()
             if rating_min == "":              
               resultados = arbol_BST_rating.inorder(arbol_BST_rating.raiz) 
-              print(f"\nResultados de la busqueda por rating minimo: {resultados}")
+              print("\nResultados de la busqueda por rating minimo:")
+              print(*resultados)
             else:
               resultados = arbol_BST_rating.buscar_desde(float(rating_min))
-              print(f"\nResultados de la busqueda por rating minimo: {resultados}")
+              print("\nResultados de la busqueda por rating minimo: ")
+              print(*resultados)
               break
           except ValueError:
             print("Entrada inválida. Ingresá un número.")
-      
+      elif tipo_filtro == "0":
+        print("Volviendo al menu anteriror...")
+            
       else:
         print("Opcion invalida.")
-    if opcion == "4":
+      
+    elif opcion == "4":
       nombre = input("Ingresa el nombre exacto del videojuego:").strip()
       if nombre:
         resultado = arbol_BST_nombre.buscar(nombre)
@@ -95,7 +104,7 @@ def iniciar_version_3(juegos ):
           print("No se encontro el videojuego")
       else:
         print("No ingreso un nombre")
-    if opcion == "5":
+    elif opcion == "5":
       nombre1 = input("Nombre exacto del primer videojuego: ").strip()
       nombre2 = input("Nombre exacto del segundo videojuego: ").strip()
       resultado1 = arbol_BST_nombre.buscar(nombre1)
@@ -115,7 +124,8 @@ def iniciar_version_3(juegos ):
         else:
           print("\nEstan empatados en rating.")
 
-    if opcion == "0":
-            print("Hasta la proxima!")
-            break
-      
+    elif opcion == "0":
+      print("Hasta la proxima!")
+      return
+    else:
+      print("Opcion invalida.")
