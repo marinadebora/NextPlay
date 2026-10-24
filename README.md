@@ -120,7 +120,8 @@ proyecto/
 │   ├── 05-gestion-proyecto.md
 │   ├── 06-analisis-complejidad.md
 │   ├── 07-bst-vs-avl.md
-│   └── 08-arbol-general.md
+│   ├── 08-arbol-general.md
+│   └── 09-heap.md
 ├── estructuras/
 ├── datos/
 ├── modelos/
@@ -142,3 +143,4 @@ proyecto/
 - [Análisis de complejidad (árbol vs. búsqueda secuencial)](./docs/06-analisis-complejidad.md)
 - [Desbalance del árbol y AVL (BST vs. AVL)](./docs/07-bst-vs-avl.md)
 - [Árbol general de categorías (versión 3)](./docs/08-arbol-general.md)
+- [Heap y Top-N (TP6)](./docs/09-heap.md)
