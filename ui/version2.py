@@ -6,7 +6,7 @@ from ui.index import _mostrar, ver_detalle_videojuego, Comparar_dos_videojuegos
 from estructuras.arbol_busqueda_nombre import Arbol as Arbol_name, Nodo as Nodo_name
 from estructuras.arbol_busqueda_rating import Arbol as Arbol_rating, Nodo as Nodo_rating
 
-def iniciar_version2(juegos):
+def iniciar_version_2(juegos):
   arbol_nombre = construir_arbol(juegos, Arbol_name, Nodo_name, lambda x: x.name)
   arbol_rating = construir_arbol(juegos, Arbol_rating, Nodo_rating, lambda x: x.rating)
   arbol_nombre_avl = construir_arbol_avl(juegos)

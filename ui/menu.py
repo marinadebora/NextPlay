@@ -13,6 +13,7 @@ MENU_MAIN = """
 | 1. Versión 1.0 | 
 | 2. Versión 2.0 | 
 | 3. Versión 3.0 | 
+| 4. Versión 4.0 | 
 | 0. Salir       | 
 =================
 """
@@ -69,3 +70,13 @@ PLATAFORMAS = """
 | 17. GameCube          | 34. PlayStation 4    |                         |
 =========================================================================
  """  
+MENU_FILTRO_V4 = """
+=========== NextPlay ===========
+| Seleccione tipo de búsqueda:  |
+| 1. Por género                 |
+| 2. Por plataforma             |
+| 3. Por rating mínimo          |
+| 4. Combinar filtros           |
+| 0. Volver al menú anterior    |
+================================
+"""
