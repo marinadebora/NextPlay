@@ -80,3 +80,22 @@ MENU_FILTRO_V4 = """
 | 0. Volver al menú anterior    |
 ================================
 """
+MENU_V4 = """
+===================== NextPlay ======================
+| 1. Buscar videojuegos por nombre                   | 
+| 2. Listar todos los videojuegos                    | 
+| 3. Filtrar por género / plataforma / rating mínimo | 
+| 4. Ver detalle de un videojuego                    | 
+| 5. Comparar dos videojuegos                        | 
+| 6. Crear nuevo ranking                             | 
+| 0. Salir                                           | 
+=====================================================
+"""
+RANKING_ORDEN = """
+=========== NextPlay ===========
+| Seleccione el tipo de orden:  |
+| 1. De mayor a menor           |
+| 2. De menor a mayor           |
+| 0. Volver al menú anterior    |
+================================
+"""
