@@ -7,5 +7,6 @@ from .opciones_menu.busqueda_nombre import busqueda_por_nombre
 from .opciones_menu.detalle_videoGame import detalle
 from .opciones_menu.comparar_videoGames import comparar_2_videoGames
 from .opciones_menu.listar_videoGames import listar_todos
-from .opciones_menu.crear_ranking import crear_ranking, mostrar_ranking,prioridad
+from .opciones_menu.nuevo_rankin import nuevo_ranking
+from .crear_ranking import crear_ranking, mostrar_ranking,prioridad
 from .crear_todos_los_arboles import crear_arboles
