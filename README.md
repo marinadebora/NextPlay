@@ -106,6 +106,23 @@ genres (o platform)
 
 Un juego con más de un género (o plataforma) aparece bajo cada una de sus categorías. El árbol ofrece búsqueda de una categoría y los recorridos `preorder`, `postorder`, `inorder` y `por_nivel`. La explicación de la jerarquía, la complejidad de las operaciones, ejemplos de recorridos y la comparación con el filtro lineal están en [`docs/08-arbol-general.md`](./docs/08-arbol-general.md). Las pruebas están en `tests/test_arbol_general.py`.
 
+
+## Estructuras de datos (TP6 — Heap y cola de prioridad)
+
+El TP6 incorpora una **heap binaria** (`estructuras/heap.py`) para generar rankings de videojuegos según su rating. La estructura se implementó manualmente, sin utilizar `heapq`, y permite consultar los elementos de mayor o menor prioridad.
+
+La función de prioridad se define en `algoritmos/crear_ranking.py` y utiliza el rating del videojuego como clave de comparación.
+
+| Estructura | Archivo | Criterio de prioridad | Dónde se usa |
+|---|---|---|---|
+| Heap | `estructuras/heap.py` | `rating` (numérico) | Versión 4: Top-5 automático al ingresar y rankings dinámicos en la opción 6 |
+
+Al ingresar a la versión 4, se muestra automáticamente el Top-5 de los videojuegos con mayor rating. Además, la opción 6 permite seleccionar la cantidad de resultados y el sentido del ranking, de mayor a menor o de menor a mayor rating.
+
+La implementación incluye operaciones de inserción, extracción, consulta de la raíz y obtención de los primeros N elementos sin modificar la heap original.
+
+La documentación de la implementación, las complejidades, las mediciones de rendimiento y la comparación con la ordenación del catálogo están en [`docs/09-heap.md`](./docs/09-heap.md). Las pruebas se encuentran en `tests/test_heap.py`.
+
 ## Estructura del repositorio
 
 ```text
