@@ -75,7 +75,7 @@ def benchmark(repeticiones=200, semilla=42):
 
 	for tamaño, ruta in DATASETS.items():
 		juegos = cargar_juegos(ruta)
-		arbol_prueba = construir_arbol(juegos)
+		arbol_prueba = construir_arbol(juegos, Arbol, Nodo, lambda x: x.name)
 
 		nombre_existente = random.choice(juegos).name
 

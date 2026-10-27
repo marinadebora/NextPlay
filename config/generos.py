@@ -1,0 +1,21 @@
+GENRES = {
+1 :"Action",
+2: "Indie",
+3: "Adventure",
+4: "RPG",
+5:"Strategy", 
+6: "Shooter", 
+7: "Casual",
+8: "Simulation",
+9: "Puzzle", 
+10: "Arcade",
+11: "Platformer",
+12: "Massively Multiplayer",
+13: "Racing", 
+14: "Sports", 
+15: "Fighting",
+16: "Family", 
+17:"Board Games",
+18: "Card",
+19: "Educational"
+}
