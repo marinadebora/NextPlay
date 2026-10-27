@@ -82,6 +82,69 @@ Las dos opciones cumplen el requisito de la historia de usuario (Top-10 en menos
 
 La heap no sirve para buscar un elemento cualquiera (eso es O(n)); sólo da acceso rápido al de mayor prioridad. Por eso **no reemplaza** a los árboles de búsqueda: los complementa en la parte de ranking.
 
-## 5. Pendiente de este TP
+## 5. Integración en NextPlay — Versión 4
 
-Falta documentar la función de prioridad, la integración del Top-N en la versión 4 de la aplicación y el diagrama de conexión entre las estructuras (secciones que se agregan cuando esa parte esté integrada).
+La heap se integra en el menú principal de NextPlay, versión 4. Al ingresar, se muestra automáticamente un Top-5 de los videojuegos con mayor rating. Además, la opción 6 permite generar rankings dinámicos, seleccionando la cantidad de videojuegos y el orden según su rating, de mayor a menor o de menor a mayor.
+
+### Función de prioridad
+
+La función `prioridad(juego)` devuelve el atributo `_rating` del videojuego. Este valor se utiliza como clave para determinar la prioridad de cada elemento.
+
+```python
+def prioridad(juego):
+    return juego._rating
+```
+
+### Generación del ranking
+
+La función `nuevo_ranking(juegos)` solicita al usuario la cantidad de videojuegos que desea consultar y el sentido del ranking: de mayor a menor rating o de menor a mayor rating.
+
+La función `mostrar_ranking(juegos, func, maximo, n)` crea la heap mediante `crear_ranking()`, obtiene los primeros `n` elementos con `top_n(n)` y muestra los videojuegos con su posición, nombre y rating.
+
+Las tres primeras posiciones se destacan mediante medallas.
+
+### Complejidad de la integración
+
+En la implementación actual, cada consulta construye la heap a partir del catálogo y luego obtiene los primeros `n` elementos.
+
+Por lo tanto, el costo total incluye la construcción de la heap, O(n), y la consulta Top-N, O(k log k), donde `n` es el tamaño del catálogo y `k` la cantidad solicitada, según la implementación de `top_n()`.
+
+El costo total esperado es O(n + k log k). La heap se vuelve a construir en cada consulta, por lo que actualmente no se reutiliza entre distintas solicitudes.
+
+## 6. Respuestas para la defensa
+
+### ¿Por qué elegimos una heap?
+
+Porque permite obtener rankings por rating sin ordenar completamente el catálogo. Es una estructura adecuada para consultar elementos según su prioridad.
+
+### ¿Por qué no ordenar todo el catálogo?
+
+Ordenar todos los videojuegos tiene un costo O(n log n) por consulta. La heap permite obtener solamente los primeros elementos sin ordenar el catálogo completo.
+
+### ¿Qué alternativas consideramos?
+
+Consideramos ordenar el catálogo, mantener una lista ordenada y utilizar árboles de búsqueda por rating. La heap complementa estas alternativas porque está especialmente orientada a las consultas por prioridad.
+
+### ¿Cuál es el costo de las operaciones?
+
+- Consultar la raíz: O(1).
+- Insertar un elemento: O(log n).
+- Extraer la raíz: O(log n).
+- Construir la heap mediante heapify: O(n).
+- Obtener un Top-N con una heap auxiliar de candidatos: O(N log N).
+
+### ¿Cuál es el peor caso?
+
+Insertar y extraer tienen un peor caso O(log n), porque el elemento puede recorrer la altura del árbol. Buscar un elemento arbitrario en la heap puede costar O(n).
+
+### ¿La heap reemplaza al BST o al AVL?
+
+No. Los árboles de búsqueda permiten localizar elementos por una clave, mientras que la heap facilita el acceso a los elementos de mayor o menor prioridad. Son estructuras complementarias.
+
+### ¿Qué demuestran las mediciones?
+
+Las mediciones permiten comparar el rendimiento de la heap con la ordenación del catálogo. La ventaja depende del tamaño del catálogo, la cantidad solicitada y el costo de construir la estructura en cada consulta.
+
+## 7. Conclusión
+
+La heap se incorpora a NextPlay para generar rankings de videojuegos según su rating. Su implementación permite aplicar una cola de prioridad y comparar su rendimiento con otras estrategias, complementando las estructuras de búsqueda desarrolladas en las versiones anteriores.
