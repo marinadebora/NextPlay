@@ -2,8 +2,10 @@
 from servicios.index import cargar_juegos
 from ui.index import iniciar
 from ui.menu import MENU_MAIN as MENU
-from ui.version2 import iniciar_version2
+from ui.version2 import iniciar_version_2
 from ui.version3 import iniciar_version_3
+from ui.version4 import iniciar_version_4
+
 
 def main():
     juegos = cargar_juegos()
@@ -15,10 +17,14 @@ def main():
         iniciar(juegos)
     elif opcion == "2":
         print("Iniciando version 2.0...")
-        iniciar_version2(juegos)
+        iniciar_version_2(juegos)
     elif opcion == "3":
         print("Iniciando version 3.0...")
         iniciar_version_3(juegos)
+    elif opcion == "4":
+        print("Iniciando version 4.0...")
+        iniciar_version_4(juegos)
+    
     elif opcion == "0":
         print("Hasta la proxima!")
         return

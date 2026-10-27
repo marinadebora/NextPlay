@@ -13,6 +13,7 @@ MENU_MAIN = """
 | 1. Versión 1.0 | 
 | 2. Versión 2.0 | 
 | 3. Versión 3.0 | 
+| 4. Versión 4.0 | 
 | 0. Salir       | 
 =================
 """
@@ -69,3 +70,32 @@ PLATAFORMAS = """
 | 17. GameCube          | 34. PlayStation 4    |                         |
 =========================================================================
  """  
+MENU_FILTRO_V4 = """
+=========== NextPlay ===========
+| Seleccione tipo de búsqueda:  |
+| 1. Por género                 |
+| 2. Por plataforma             |
+| 3. Por rating mínimo          |
+| 4. Combinar filtros           |
+| 0. Volver al menú anterior    |
+================================
+"""
+MENU_V4 = """
+===================== NextPlay ======================
+| 1. Buscar videojuegos por nombre                   | 
+| 2. Listar todos los videojuegos                    | 
+| 3. Filtrar por género / plataforma / rating mínimo | 
+| 4. Ver detalle de un videojuego                    | 
+| 5. Comparar dos videojuegos                        | 
+| 6. Crear nuevo ranking                             | 
+| 0. Salir                                           | 
+=====================================================
+"""
+RANKING_ORDEN = """
+=========== NextPlay ===========
+| Seleccione el tipo de orden:  |
+| 1. De mayor a menor           |
+| 2. De menor a mayor           |
+| 0. Volver al menú anterior    |
+================================
+"""

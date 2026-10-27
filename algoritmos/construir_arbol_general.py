@@ -15,3 +15,13 @@ def buscar_por_categoria (arbol, categoria):
         print(nodo.valor)
   else:
     print("No se encontraron resultados")
+
+def retorna_categoria(arbol, categoria):
+  lista_games=[]
+  resultado = arbol.buscar_por_categoria(categoria)
+  if resultado is not None:
+    for nodo in resultado:
+      lista_games.append(nodo.valor)
+  else:
+    return {"respuesta":[],"msg":"No se encontraron resultados de la busqueda por categoria: "}
+  return {"respuesta":lista_games, "msg":"Resultado de la busqueda por categoria: "}
