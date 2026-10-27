@@ -60,11 +60,14 @@ def filtros(opcion,arboles):
         plataforma = dic_plataforma["respuesta"]
         rating_min = dic_rating_min["respuesta"]
         resultados = filtros_unificados(genero,plataforma,rating_min,arboles)
-        print(f"Total por Género {dic_genero["categoria"]}:", len(genero) if genero is not None else None)
-        print(f"Total por Plataforma {dic_plataforma["categoria"]}:", len(plataforma) if plataforma is not None else None)
-        print(f"Total por Rating {dic_rating_min["rating_min"]}:", len(rating_min) if rating_min is not None else None)
-        print("Total fitros convinados:", len(resultados))        
-        print(*resultados)
+        if len(resultados) == 0:
+          print(f"No se encontraron resultados que cumplan con: \nGenero: {dic_genero["categoria"]} , Plataforma: {dic_plataforma["categoria"]} y  Rating: {dic_rating_min["rating_min"]}")
+        else:
+          print(f"Total por Género {dic_genero["categoria"]}:", len(genero) if genero is not None else None)
+          print(f"Total por Plataforma {dic_plataforma["categoria"]}:", len(plataforma) if plataforma is not None else None)
+          print(f"Total por Rating {dic_rating_min["rating_min"]}:", len(rating_min) if rating_min is not None else None)
+          print("Total fitros convinados:", len(resultados))        
+          print(*resultados)
         
       except ValueError:
         print("Entrada inválida. Ingresá un número.")
@@ -118,7 +121,7 @@ def opcion_3(arboles):
       else:
         respuesta = arbol_rating.buscar_desde(float(rating_min))
         if len(respuesta) == 0:
-          return {"respuesta": [], "rating_min":rating_min,"msg":"No se encontro resultado"} 
+          return {"respuesta": [], "rating_min":rating_min,"msg":"No se encontro resultado para rating minimo: "} 
         else:
           return {"respuesta":respuesta,"rating_min":rating_min, "msg":"Resultados de la busqueda por rating minimo: "}
     except ValueError:
@@ -126,11 +129,8 @@ def opcion_3(arboles):
 #-----------------------------------------------------------------------------------#
 
 def filtros_unificados(genero,plataforma,rating_min,arboles):
-  listas = [lista for lista in (genero,plataforma,rating_min) if lista is not None and len(lista) != 0]
- #--------------------
-  print("Len lista ")
-  print(len(listas))
-  #--------------------
+  listas = [lista for lista in (genero,plataforma,rating_min) if lista is not None]
+
   if not listas:
     arbol_avl = arboles["arbol_avl"]
     resultados = arbol_avl.inorder(arbol_avl.raiz)
@@ -149,10 +149,13 @@ def unir(lista_g=None,lista_p=None,lista_r=None):
   set_id_1,set_id_2 = set(), set() 
   resultados = []
   # elimina las listas que sean None
-  listas = list(filter(lambda e: e is not None and len(e) != 0 ,(lista_g,lista_p,lista_r)))
+  listas = list(filter(lambda e: e is not None,(lista_g,lista_p,lista_r)))
  
   # Selecciona la lista mas corta
   lista_menor = min(listas, key=len)
+  # Si la lista mas corta no tiene nada retorna, no hay videogame que cumpla todos los filtros
+  if len(lista_menor) == 0:
+    return []
   # Elimaina la lista menor del resto de las listas
   otras_listas = [lista for lista in listas if lista is not lista_menor]
   # Si otras_listas tiene 2 listas crea dos set guardando los id 

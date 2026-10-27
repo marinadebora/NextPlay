@@ -23,5 +23,5 @@ def retorna_categoria(arbol, categoria):
     for nodo in resultado:
       lista_games.append(nodo.valor)
   else:
-    return {"respuesta":[],"msg":"No se encontraron resultados "}
-  return {"respuesta":lista_games, "msg":"Resultsdo de la busqueda por categoria: "}
+    return {"respuesta":[],"msg":"No se encontraron resultados de la busqueda por categoria: "}
+  return {"respuesta":lista_games, "msg":"Resultado de la busqueda por categoria: "}
