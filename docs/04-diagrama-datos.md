@@ -70,6 +70,7 @@ flowchart TD
     C --> D["Árbol BST"]   
     C --> E["Árbol AVL"]   
     C --> F["Árbol General"]
+    C --> 0["Búsquedas secuenciales"]
 
     D --> G["Búsqueda y ordenamiento por rating"]
     D --> H["Búsqueda por nombre exacto"]
@@ -82,6 +83,7 @@ flowchart TD
     H --> L["Detalle de un videojuego"]
     H --> M["Comparación de videojuegos"]
 
+    O --> P["Búsqueda por nombre parcial"]
 ```
 
 ## Descripción de las estructuras
@@ -92,3 +94,41 @@ flowchart TD
 - **Árbol (AVL):** árbol de búsqueda balanceado por nombre que mantiene su altura controlada durante las inserciones organiza los videojuegos por nombre y permite realizar búsquedas por nombre exacto, tambien ordena inorder para listar todos los videojuegos.
 - **Árbol de búsqueda por rating (BST):** organiza los videojuegos según su puntuación para facilitar las consultas y el ordenamiento por rating.
 - **Árbol General:** organiza los videojuegos por categorias, generos o plataformas.
+
+## version 4
+```mermaid
+flowchart TD
+    A["VideoGames.JSON"] --> B["Carga y construcción de objetos"]
+    B --> C["Objetos VideoJuego"]
+
+    C --> D["Árbol BST"]   
+    C --> E["Árbol AVL"]   
+    C --> F["Árbol General"]
+    C --> G["Árbol HEAP"]
+    C --> P["Búsquedas secuenciales"]
+
+    D --> H["Búsqueda y ordenamiento por rating"]
+    D --> I["Búsqueda por nombre exacto"]
+
+    E --> J["Búsqueda por nombre exacto"]
+    E --> K["Listar ordenado inorder"]
+   
+    F --> L["Búsqueda y ordenamiento por genero y plataforma"]
+    
+    G --> M["Ranking"]
+
+    I --> N["Detalle de un videojuego"]
+    I --> O["Comparación de videojuegos"]
+
+    P --> Q["Búsqueda por nombre parcial"]
+
+```
+## Descripción de las estructuras
+
+- **VideoGames.JSON:** archivo que contiene los datos del catálogo de videojuegos.
+- **VideoJuego:** clase que representa cada videojuego y sus atributos.
+- **Árbol binario de búsqueda (BST):** organiza los videojuegos por nombre y permite realizar búsquedas por nombre exacto, se utiliza para buscar el detalle y para comparar dos videojuegos.
+- **Árbol (AVL):** árbol de búsqueda balanceado por nombre que mantiene su altura controlada durante las inserciones organiza los videojuegos por nombre y permite realizar búsquedas por nombre exacto, tambien ordena inorder para listar todos los videojuegos.
+- **Árbol de búsqueda por rating (BST):** organiza los videojuegos según su puntuación para facilitar las consultas y el ordenamiento por rating.
+- **Árbol General:** organiza los videojuegos por categorias, generos o plataformas.
+- **Árbol HEAP:** Crea un ranking de todos los videojuegos por rating.
