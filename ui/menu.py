@@ -13,7 +13,8 @@ MENU_MAIN = """
 | 1. Versión 1.0 | 
 | 2. Versión 2.0 | 
 | 3. Versión 3.0 | 
-| 4. Versión 4.0 | 
+| 4. Versión 4.0 |
+| 5. Versión 5.0 | 
 | 0. Salir       | 
 =================
 """
@@ -98,4 +99,16 @@ RANKING_ORDEN = """
 | 2. De menor a mayor           |
 | 0. Volver al menú anterior    |
 ================================
+"""
+MENU_V5 = """
+===================== NextPlay ======================
+| 1. Buscar videojuegos por nombre                   | 
+| 2. Listar todos los videojuegos                    | 
+| 3. Filtrar por género / plataforma / rating mínimo | 
+| 4. Ver detalle de un videojuego                    | 
+| 5. Comparar dos videojuegos                        | 
+| 6. Crear nuevo ranking                             | 
+| 7. Ver videojuegos relacionados                    |
+| 0. Salir                                           | 
+=====================================================
 """

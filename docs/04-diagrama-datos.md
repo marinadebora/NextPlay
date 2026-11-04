@@ -132,3 +132,45 @@ flowchart TD
 - **Árbol de búsqueda por rating (BST):** organiza los videojuegos según su puntuación para facilitar las consultas y el ordenamiento por rating.
 - **Árbol General:** organiza los videojuegos por categorias, generos o plataformas.
 - **Árbol HEAP:** Crea un ranking de todos los videojuegos por rating.
+
+## version 5
+```mermaid
+flowchart TD
+    A["VideoGames.JSON"] --> B["Carga y construcción de objetos"]
+    B --> C["Objetos VideoJuego"]
+
+    C --> D["Árbol BST"]   
+    C --> E["Árbol AVL"]   
+    C --> F["Árbol General"]
+    C --> G["Árbol HEAP"]
+    C --> R["Grafo"]
+    C --> P["Búsquedas secuenciales"]
+
+    D --> H["Búsqueda y ordenamiento por rating"]
+    D --> I["Búsqueda por nombre exacto"]
+
+    E --> J["Búsqueda por nombre exacto"]
+    E --> K["Listar ordenado inorder"]
+   
+    F --> L["Búsqueda y ordenamiento por genero y plataforma"]
+    
+    G --> M["Ranking"]
+
+    I --> N["Detalle de un videojuego"]
+    I --> O["Comparación de videojuegos"]
+
+    P --> Q["Búsqueda por nombre parcial"]
+
+    R --> S["Ver videojuegos relacionados" ]
+
+```
+## Descripción de las estructuras
+
+- **VideoGames.JSON:** archivo que contiene los datos del catálogo de videojuegos.
+- **VideoJuego:** clase que representa cada videojuego y sus atributos.
+- **Árbol binario de búsqueda (BST):** organiza los videojuegos por nombre y permite realizar búsquedas por nombre exacto, se utiliza para buscar el detalle y para comparar dos videojuegos.
+- **Árbol (AVL):** árbol de búsqueda balanceado por nombre que mantiene su altura controlada durante las inserciones organiza los videojuegos por nombre y permite realizar búsquedas por nombre exacto, tambien ordena inorder para listar todos los videojuegos.
+- **Árbol de búsqueda por rating (BST):** organiza los videojuegos según su puntuación para facilitar las consultas y el ordenamiento por rating.
+- **Árbol General:** organiza los videojuegos por categorias, generos o plataformas.
+- **Árbol HEAP:** Crea un ranking de todos los videojuegos por rating.
+- **Grafo** Establece relaciones entre videojuegos según los géneros que comparten y asigna un peso a cada relación considerando también las plataformas en común.
