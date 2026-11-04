@@ -37,9 +37,13 @@ python main.py
 ```
 ### 3. Menú principal
 
-Al iniciar la aplicación, se puede elegir entre la versión 1.0 (TP1/TP2), la versión 2.0 (TP3/TP4, con el árbol binario y el AVL integrados a la búsqueda y al filtro por rating) y la versión 3.0 (TP5, con el árbol general de categorías en el filtro por género y plataforma):
-- **Versión 4.0:** TP6, con Heap y rankings dinámicos.
-- **Versión 5.0:** TP7, con un grafo para consultar videojuegos relacionados.
+Al iniciar la aplicación, se puede elegir entre:
+- versión 1.0 (TP1/TP2)
+- versión 2.0 (TP3/TP4, con el árbol binario y el AVL integrados a la búsqueda y al filtro por rating)
+- versión 3.0 (TP5, con el árbol general de categorías en el filtro por género y plataforma)
+- version 4.0 (TP6, con Heap y rankings dinámicos)
+- version 5.0 (TP7, con un grafo para consultar videojuegos relacionados)
+
 
 ```bash
 ==== NextPlay ====
