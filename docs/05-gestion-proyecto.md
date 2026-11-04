@@ -24,7 +24,7 @@ El objetivo del sprint fue completar las tareas correspondientes al TP1 y organi
 Se incluyen capturas del tablero como evidencia de su utilización durante el desarrollo del TP1.
 <img src="./capturas/trello-tp1.jpg" alt="Tablero de Trello" width="500">
 
-## Sprint 12 - TP2
+## Sprint 2 - TP2
 
 El objetivo del sprint fue completar las tareas correspondientes al TP2 y organizar el trabajo del equipo mediante el tablero de Trello.
 
@@ -68,3 +68,12 @@ El objetivo del sprint fue completar las tareas correspondientes al TP6 y organi
 
 Se incluyen capturas del tablero como evidencia de su utilización durante el desarrollo del TP6.
 <img src="./capturas/trello-tp6.jpg" alt="Tablero de Trello" width="500">
+
+## Sprint 7 - TP7
+
+El objetivo del sprint fue completar las tareas correspondientes al TP7 y organizar el trabajo del equipo mediante el tablero de Trello.
+
+### Evidencia
+
+Se incluyen capturas del tablero como evidencia de su utilización durante el desarrollo del TP7.
+<img src="./capturas/trello-tp7.jpg" alt="Tablero de Trello" width="500">

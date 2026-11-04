@@ -1,6 +1,9 @@
 from .construir_arbol import construir_arbol
 from .construir_arbol_avl import construir_arbol_avl
 from .construir_arbol_general import construir_arbol_general,buscar_por_categoria, retorna_categoria
+from .crear_ranking import crear_ranking, mostrar_ranking,prioridad
+from .crear_todos_los_arboles import crear_arboles
+from .construir_grafo import construir_grafo
 from .busqueda_secuencial import buscar_nombre_exacto
 from .opciones_menu.filtros import filtros_unificados, filtros,filtrar
 from .opciones_menu.busqueda_nombre import busqueda_por_nombre
@@ -8,5 +11,5 @@ from .opciones_menu.detalle_videoGame import detalle
 from .opciones_menu.comparar_videoGames import comparar_2_videoGames
 from .opciones_menu.listar_videoGames import listar_todos
 from .opciones_menu.nuevo_rankin import nuevo_ranking
-from .crear_ranking import crear_ranking, mostrar_ranking,prioridad
-from .crear_todos_los_arboles import crear_arboles
+from .opciones_menu.ver_videoGame_relacionados import ver_videoGame_relacionados
+

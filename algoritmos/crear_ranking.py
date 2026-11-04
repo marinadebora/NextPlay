@@ -10,14 +10,14 @@ def prioridad(juego):
 def mostrar_ranking(juegos,func,maximo,n):
   ranking = crear_ranking(juegos,func,maximo)
   top_5 = ranking.top_n(n)
-  print(f"\n=================== NextPlay ========= TOP {n} ===\n")
+  print(f"\n {'=' * 24} NextPlay {'=' * 13} TOP {n} ===\n")
   dic_posicion = {1:"🥇", 2:"🥈",3:"🥉"}
   for indice,juego in enumerate(top_5, start=1):
+      star="⭐" * int(juego._rating)
+      ancho= 45 - int(juego._rating)
       if indice <=3:
-        print(f"{dic_posicion[indice]} {juego._name: <40} {juego._rating}")
-      elif indice >=10:
-        print(f"{indice} {juego._name: <40} {juego._rating}")
+        print(f"{dic_posicion[indice]} {juego._name: <{ancho}} {star: >4} {juego._rating}")
       else:
-        print(f" {indice} {juego._name: <40} {juego._rating}")
-  print("================================================")
+        print(f" {indice} {juego._name: <{ancho}} {star: >4} {juego._rating}")
+  print(f"{ '=' * 58}")
 
