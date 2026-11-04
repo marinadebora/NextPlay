@@ -156,7 +156,3 @@ La consulta "relacionados" reutiliza la heap del TP6: el grafo da los vecinos y 
 - **¿Por qué lista y no matriz?** Menos espacio (O(V + E) contra O(V²)), vecinos en O(grado), recorridos O(V + E), y la consulta de arista sigue siendo O(1) con diccionarios. Ver sección 3.
 - **¿Qué pasa si se cambia la regla de conexión?** Solo cambia el parámetro `min_generos_comunes` de `construir_grafo`; la estructura no se toca.
 - **¿Dónde está en el código y cómo se integra?** `estructuras/grafo.py` (estructura), `algoritmos/construir_grafo.py` (construcción desde el catálogo) y la versión 5 de la aplicación (`ui/version5.py`) para "Ver elementos relacionados" y "Explorar conexiones".
-
-## 8. Pendiente de este TP
-
-Falta la integración en la versión 5 de la aplicación y la actualización de los diagramas de clases y de datos (`docs/03` y `docs/04`).
