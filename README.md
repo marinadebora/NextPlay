@@ -38,23 +38,19 @@ python main.py
 ### 3. Menú principal
 
 Al iniciar la aplicación, se puede elegir entre la versión 1.0 (TP1/TP2), la versión 2.0 (TP3/TP4, con el árbol binario y el AVL integrados a la búsqueda y al filtro por rating) y la versión 3.0 (TP5, con el árbol general de categorías en el filtro por género y plataforma):
+- **Versión 4.0:** TP6, con Heap y rankings dinámicos.
+- **Versión 5.0:** TP7, con un grafo para consultar videojuegos relacionados.
+
 ```bash
 ==== NextPlay ====
 1. Versión 1.0
 2. Versión 2.0
 3. Versión 3.0
+4. Versión 4.0
+5. Versión 5.0
 0. Salir
 ```
-Las tres versiones comparten el mismo catálogo de juegos (`datos/VideoGames.JSON`) y el mismo menú de opciones:
-```bash
-=== NextPlay ===
-1. Buscar videojuegos por nombre
-2. Listar todos los videojuegos
-3. Filtrar por genero / plataforma / rating minimo
-4. Ver detalle de un videojuego
-5. Comparar dos videojuegos
-0. Salir
-```
+Las versiones comparten el mismo catálogo de videojuegos (datos/VideoGames.JSON) y mantienen las funcionalidades incorporadas en las versiones anteriores. Cada nueva versión incorpora las estructuras y funcionalidades correspondientes a su trabajo práctico.
 
 ## Estructuras de datos (TP3 — árboles binarios de búsqueda)
 
@@ -123,11 +119,30 @@ La implementación incluye operaciones de inserción, extracción, consulta de l
 
 La documentación de la implementación, las complejidades, las mediciones de rendimiento y la comparación con la ordenación del catálogo están en [`docs/09-heap.md`](./docs/09-heap.md). Las pruebas se encuentran en `tests/test_heap.py`.
 
+```markdown
+## Estructuras de datos (TP7 — Grafo)
+
+El TP7 incorpora un **grafo pesado** (`estructuras/grafo.py`) implementado mediante listas de adyacencia utilizando diccionarios. Esta estructura permite representar relaciones entre videojuegos y asignar un peso a cada conexión.
+
+Cada vértice representa un objeto `VideoJuego` y se identifica mediante su ID. Dos videojuegos se conectan cuando comparten al menos dos géneros. El peso de cada arista se calcula sumando la cantidad de géneros y plataformas que tienen en común.
+
+El grafo es no dirigido, ya que la relación de similitud entre dos videojuegos es recíproca.
+
+| Estructura | Archivo | Criterio de relación | Dónde se usa |
+|---|---|---|---|
+| Grafo | `estructuras/grafo.py` | Géneros en común (mínimo 2). Peso: géneros y plataformas compartidos. | Versión 5: opción 7, ver videojuegos relacionados |
+
+La versión 5 incorpora la funcionalidad **Ver videojuegos relacionados**, que permite ingresar el nombre de un videojuego y consultar otros títulos conectados con él. Los resultados se ordenan de mayor a menor según el peso de sus relaciones, mostrando primero los videojuegos que comparten más características.
+
+La implementación utiliza una lista de adyacencia, cuya complejidad espacial es O(V + E), donde V representa la cantidad de vértices y E la cantidad de aristas.
+
+
 ## Estructura del repositorio
 
 ```text
 proyecto/
 ├── algoritmos/
+|   └──opciones_menu/
 ├── docs/
 │   ├──capturas/
 │   ├── 01-requerimientos.md
@@ -138,7 +153,8 @@ proyecto/
 │   ├── 06-analisis-complejidad.md
 │   ├── 07-bst-vs-avl.md
 │   ├── 08-arbol-general.md
-│   └── 09-heap.md
+│   ├── 09-heap.md
+|   └── 10-grafo.md
 ├── estructuras/
 ├── datos/
 ├── modelos/
@@ -161,3 +177,4 @@ proyecto/
 - [Desbalance del árbol y AVL (BST vs. AVL)](./docs/07-bst-vs-avl.md)
 - [Árbol general de categorías (versión 3)](./docs/08-arbol-general.md)
 - [Heap y Top-N (TP6)](./docs/09-heap.md)
+- [Grafo y videojuegos relacionados (TP7)](./docs/10-grafo.md)
