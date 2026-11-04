@@ -3,7 +3,13 @@ from algoritmos import crear_arboles, filtrar, busqueda_por_nombre, detalle, com
 
 def iniciar_version_5(juegos):
   arboles = crear_arboles(juegos)
-  grafo = construir_grafo(juegos)
+  if len(juegos) > 100:
+    grafo = construir_grafo(juegos, 3)
+  if len(juegos) > 900:
+    grafo = construir_grafo(juegos, 4)
+  else:
+    grafo = construir_grafo(juegos)
+
   while True:
     mostrar_ranking(juegos,prioridad,True,5)
     print(MENU_V5)
