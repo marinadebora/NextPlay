@@ -56,18 +56,26 @@ def filtros(opcion,arboles):
         filtarr_rating_min = input("Quiere filtrar por Rating minimo (enter para omitir): ").strip() or None
         if filtarr_rating_min:
           dic_rating_min = opcion_3(arboles)
-        genero = dic_genero["respuesta"]
-        plataforma = dic_plataforma["respuesta"]
-        rating_min = dic_rating_min["respuesta"]
+
+        genero = dic_genero["respuesta"] if dic_genero is not None else None
+        genero_txt = dic_genero["categoria"] if dic_genero is not None else "Omitido"
+
+        plataforma = dic_plataforma["respuesta"] if dic_plataforma is not None else None
+        plataforma_txt = dic_plataforma["categoria"] if dic_plataforma is not None else "Omitido"
+
+        rating_min = dic_rating_min["respuesta"] if dic_rating_min is not None else None
+        rating_min_txt = dic_rating_min["rating_min"] if dic_rating_min is not None else "Omitido"
+
         resultados = filtros_unificados(genero,plataforma,rating_min,arboles)
+
         if len(resultados) == 0:
-          print(f"No se encontraron resultados que cumplan con: \nGenero: {dic_genero["categoria"]} , Plataforma: {dic_plataforma["categoria"]} y  Rating: {dic_rating_min["rating_min"]}")
+          print(f"No se encontraron resultados que cumplan con: \nGenero: {genero_txt} , Plataforma: {plataforma_txt} y  Rating: {rating_min_txt}")
         else:
-          print(f"Total por Género {dic_genero["categoria"]}:", len(genero) if genero is not None else None)
-          print(f"Total por Plataforma {dic_plataforma["categoria"]}:", len(plataforma) if plataforma is not None else None)
-          print(f"Total por Rating {dic_rating_min["rating_min"]}:", len(rating_min) if rating_min is not None else None)
-          print("Total fitros convinados:", len(resultados))        
           print(*resultados)
+          print(f"Total por Género {genero_txt}:", len(genero) if genero is not None else 0)
+          print(f"Total por Plataforma {plataforma_txt}:", len(plataforma) if plataforma is not None else 0)
+          print(f"Total por Rating {rating_min_txt}:", len(rating_min) if rating_min is not None else 0)
+          print("Total fitros convinados:", len(resultados))        
         
       except ValueError:
         print("Entrada inválida. Ingresá un número.")
