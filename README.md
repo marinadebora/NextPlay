@@ -123,7 +123,8 @@ La implementación incluye operaciones de inserción, extracción, consulta de l
 
 La documentación de la implementación, las complejidades, las mediciones de rendimiento y la comparación con la ordenación del catálogo están en [`docs/09-heap.md`](./docs/09-heap.md). Las pruebas se encuentran en `tests/test_heap.py`.
 
-```markdown
+
+
 ## Estructuras de datos (TP7 — Grafo)
 
 El TP7 incorpora un **grafo pesado** (`estructuras/grafo.py`) implementado mediante listas de adyacencia utilizando diccionarios. Esta estructura permite representar relaciones entre videojuegos y asignar un peso a cada conexión.
