@@ -77,3 +77,12 @@ El objetivo del sprint fue completar las tareas correspondientes al TP7 y organi
 
 Se incluyen capturas del tablero como evidencia de su utilización durante el desarrollo del TP7.
 <img src="./capturas/trello-tp7.jpg" alt="Tablero de Trello" width="500">
+
+## Sprint 8 - TP8
+
+El objetivo del sprint fue completar las tareas correspondientes al TP8 y organizar el trabajo del equipo mediante el tablero de Trello.
+
+### Evidencia
+
+Se incluyen capturas del tablero como evidencia de su utilización durante el desarrollo del TP8.
+<img src="./capturas/trello-tp8.jpg" alt="Tablero de Trello" width="500">

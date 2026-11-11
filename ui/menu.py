@@ -9,14 +9,15 @@ MENU = """
 =====================================================
 """
 MENU_MAIN = """
-==== NextPlay ====
-| 1. Versión 1.0 | 
-| 2. Versión 2.0 | 
-| 3. Versión 3.0 | 
-| 4. Versión 4.0 |
-| 5. Versión 5.0 | 
-| 0. Salir       | 
-=================
+===== NextPlay =====
+|  1. Versión 1.0  | 
+|  2. Versión 2.0  | 
+|  3. Versión 3.0  | 
+|  4. Versión 4.0  |
+|  5. Versión 5.0  | 
+|  6. Versión 6.0  | 
+|  0. Salir        | 
+===================
 """
 MENU_NOMBRE = """
 =========== NextPlay ===========
@@ -109,6 +110,20 @@ MENU_V5 = """
 | 5. Comparar dos videojuegos                        | 
 | 6. Crear nuevo ranking                             | 
 | 7. Ver videojuegos relacionados                    |
+| 0. Salir                                           | 
+=====================================================
+"""
+MENU_V6 = """
+===================== NextPlay ======================
+| 1. Buscar videojuegos por nombre                   | 
+| 2. Listar todos los videojuegos                    | 
+| 3. Filtrar por género / plataforma / rating mínimo | 
+| 4. Ver detalle de un videojuego                    | 
+| 5. Comparar dos videojuegos                        | 
+| 6. Crear nuevo ranking                             | 
+| 7. Ver videojuegos relacionados                    |
+| 8. Ver camino más corto entre dos videojuegos      |
+| 9. Explorar conexiones entre videojuegos           |
 | 0. Salir                                           | 
 =====================================================
 """
