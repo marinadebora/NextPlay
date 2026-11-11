@@ -12,4 +12,7 @@ from .opciones_menu.comparar_videoGames import comparar_2_videoGames
 from .opciones_menu.listar_videoGames import listar_todos
 from .opciones_menu.nuevo_rankin import nuevo_ranking
 from .opciones_menu.ver_videoGame_relacionados import ver_videoGame_relacionados
+from .opciones_menu.caminos_entre_games import caminos_entre_dos_videojuegos
+from .opciones_menu.explorar_coneccion import explorar_conexiones
+from .recorridos_grafo import bfs, dfs, camino_mas_corto
 
