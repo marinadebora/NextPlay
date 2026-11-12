@@ -182,7 +182,8 @@ proyecto/
 │   ├── 07-bst-vs-avl.md
 │   ├── 08-arbol-general.md
 │   ├── 09-heap.md
-|   └── 10-grafo.md
+|   ├── 10-grafo.md
+|   └── 11-recorridos.md
 ├── estructuras/
 ├── datos/
 ├── modelos/
@@ -206,3 +207,4 @@ proyecto/
 - [Árbol general de categorías (versión 3)](./docs/08-arbol-general.md)
 - [Heap y Top-N (TP6)](./docs/09-heap.md)
 - [Grafo y videojuegos relacionados (TP7)](./docs/10-grafo.md)
+- [Recorridos del grafo: BFS y DFS (TP8)](./docs/11-recorridos.md)
