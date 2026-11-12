@@ -141,6 +141,29 @@ La versión 5 incorpora la funcionalidad **Ver videojuegos relacionados**, que p
 
 La implementación utiliza una lista de adyacencia, cuya complejidad espacial es O(V + E), donde V representa la cantidad de vértices y E la cantidad de aristas.
 
+## Recorridos de grafos (TP8 — BFS y DFS)
+
+El TP8 incorpora algoritmos de recorrido sobre el grafo de videojuegos (\`algoritmos/recorridos_grafo.py\`). Se implementaron BFS (búsqueda en anchura) y DFS (búsqueda en profundidad), que permiten explorar las conexiones entre videojuegos y encontrar caminos dentro de la red.
+
+**BFS (Breadth-First Search)** utiliza una cola implementada mediante \`collections.deque\` para recorrer el grafo por niveles. Registra el orden de visita, la distancia en cantidad de aristas desde el origen y el padre de cada vértice. Esta información permite reconstruir el camino más corto entre dos videojuegos, considerando la menor cantidad de aristas.
+
+**DFS (Depth-First Search)** utiliza una pila explícita para recorrer el grafo en profundidad, explorando las conexiones hasta donde sea posible antes de continuar con otras ramas. Se utiliza para explorar los videojuegos alcanzables desde un videojuego seleccionado.
+
+| Algoritmo | Archivo | Estructura auxiliar | Dónde se usa |
+|---|---|---|---|
+| BFS | `algoritmos/recorridos_grafo.py` | Cola (`collections.deque`) | Versión 6: opciones 8|
+| DFS | `algoritmos/recorridos_grafo.py` | Pila | Versión 6: opción 9 |
+
+La versión 6 incorpora dos consultas sobre el grafo:
+
+- **Ver camino más corto entre dos videojuegos:** utiliza BFS para encontrar y reconstruir el camino con menor cantidad de aristas entre dos videojuegos.
+- **Explorar conexiones entre videojuegos:** utiliza DFS para recorrer los videojuegos alcanzables desde un origen.
+
+Ambos algoritmos utilizan un conjunto de visitados para evitar procesar repetidamente los vértices y prevenir ciclos.
+
+La complejidad temporal de BFS y DFS es O(V + E), donde V representa la cantidad de vértices y E la cantidad de aristas. Su complejidad espacial también es O(V + E) si se considera el almacenamiento del grafo; el espacio auxiliar de los recorridos es O(V).
+
+La búsqueda del camino más corto mediante BFS tiene complejidad temporal O(V + E), incluyendo la reconstrucción del camino.
 
 ## Estructura del repositorio
 
@@ -159,7 +182,8 @@ proyecto/
 │   ├── 07-bst-vs-avl.md
 │   ├── 08-arbol-general.md
 │   ├── 09-heap.md
-|   └── 10-grafo.md
+|   ├── 10-grafo.md
+|   └── 11-recorridos.md
 ├── estructuras/
 ├── datos/
 ├── modelos/
@@ -183,3 +207,4 @@ proyecto/
 - [Árbol general de categorías (versión 3)](./docs/08-arbol-general.md)
 - [Heap y Top-N (TP6)](./docs/09-heap.md)
 - [Grafo y videojuegos relacionados (TP7)](./docs/10-grafo.md)
+- [Recorridos del grafo: BFS y DFS (TP8)](./docs/11-recorridos.md)

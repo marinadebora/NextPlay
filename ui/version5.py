@@ -3,10 +3,10 @@ from algoritmos import crear_arboles, filtrar, busqueda_por_nombre, detalle, com
 
 def iniciar_version_5(juegos):
   arboles = crear_arboles(juegos)
-  if len(juegos) > 100:
-    grafo = construir_grafo(juegos, 3)
-  if len(juegos) > 900:
+  if len(juegos) > 980:
     grafo = construir_grafo(juegos, 4)
+  elif len(juegos) > 120:
+    grafo = construir_grafo(juegos, 3)
   else:
     grafo = construir_grafo(juegos)
 

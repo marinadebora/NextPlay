@@ -57,3 +57,54 @@
   2. Selecciona el primer videojuego.
   3. Selecciona el segundo videojuego.
   4. El sistema muestra la información de ambos para facilitar su comparación.
+
+## Crear nuevo ranking
+
+- **Actor:** Usuario.
+- **Objetivo:** Generar un ranking de videojuegos según su rating.
+- **Precondición:** La aplicación está iniciada y los videojuegos están cargados.
+- **Flujo principal:**
+  1. El usuario selecciona la opción de crear un nuevo ranking.
+  2. Elige el orden del ranking: de mayor a menor o de menor a mayor rating.
+  3. El sistema solicita la cantidad de videojuegos que desea incluir.
+  4. El usuario ingresa la cantidad.
+  5. El sistema genera y muestra el ranking solicitado.
+- **Flujo alternativo:** Si la cantidad ingresada no es válida, el sistema solicita un nuevo valor.
+
+## Ver videojuegos relacionados
+
+- **Actor:** Usuario.
+- **Objetivo:** Consultar los videojuegos relacionados con un videojuego seleccionado.
+- **Precondición:** La aplicación está iniciada, los videojuegos están cargados y el grafo de relaciones está construido.
+- **Flujo principal:**
+  1. El usuario selecciona la opción de ver videojuegos relacionados.
+  2. Ingresa el nombre exacto del videojuego que desea consultar.
+  3. El sistema busca el videojuego y realiza un recorrido BFS sobre el grafo.
+  4. El sistema muestra los videojuegos relacionados encontrados.
+- **Flujo alternativo:** Si el videojuego no existe, el sistema informa que no fue encontrado. Si no tiene videojuegos relacionados, informa que no se encontraron conexiones.
+
+## Ver camino más corto entre dos videojuegos
+
+- **Actor:** Usuario.
+- **Objetivo:** Encontrar el camino con menor cantidad de aristas entre dos videojuegos.
+- **Precondición:** La aplicación está iniciada, los videojuegos están cargados y el grafo de relaciones está construido.
+- **Flujo principal:**
+  1. El usuario selecciona la opción de ver camino más corto.
+  2. Ingresa el nombre exacto del videojuego de origen.
+  3. Ingresa el nombre exacto del videojuego de destino.
+  4. El sistema busca ambos videojuegos.
+  5. El sistema utiliza BFS para encontrar el camino con menor cantidad de aristas.
+  6. El sistema muestra los videojuegos que forman el camino y la distancia en cantidad de aristas.
+- **Flujo alternativo:** Si alguno de los videojuegos no existe, el sistema informa que no fue encontrado. Si no existe un camino entre ambos, informa que no hay conexión.
+
+## Explorar conexiones entre videojuegos
+
+- **Actor:** Usuario.
+- **Objetivo:** Explorar los videojuegos conectados a uno seleccionado mediante una búsqueda en profundidad.
+- **Precondición:** La aplicación está iniciada, los videojuegos están cargados y el grafo de relaciones está construido.
+- **Flujo principal:**
+  1. El usuario selecciona la opción de explorar conexiones entre videojuegos.
+  2. Ingresa el nombre exacto del videojuego desde el cual desea comenzar.
+  3. El sistema busca el videojuego y realiza un recorrido DFS sobre el grafo.
+  4. El sistema muestra los videojuegos alcanzados durante el recorrido, en el orden de visita.
+- **Flujo alternativo:** Si el videojuego no existe, el sistema informa que no fue encontrado. Sino tiene conexiones, informa que no se encontraron videojuegos relacionados.

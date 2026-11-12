@@ -174,3 +174,40 @@ flowchart TD
 - **Árbol General:** organiza los videojuegos por categorias, generos o plataformas.
 - **Árbol HEAP:** Crea un ranking de todos los videojuegos por rating.
 - **Grafo** Establece relaciones entre videojuegos según los géneros que comparten y asigna un peso a cada relación considerando también las plataformas en común.
+
+# version 6
+```mermaid
+flowchart TD
+    A["VideoGames.JSON"] --> B["Carga y construcción de objetos"]
+    B --> C["Objetos VideoJuego"]
+
+    C --> D["Árbol BST"]
+    C --> E["Árbol AVL"]
+    C --> F["Árbol General"]
+    C --> G["Árbol HEAP"]
+    C --> R["Grafo"]
+    C --> P["Búsquedas secuenciales"]
+
+    D --> H["Búsqueda y ordenamiento por rating"]
+    D --> I["Búsqueda por nombre exacto"]
+
+    E --> J["Búsqueda por nombre exacto"]
+    E --> K["Listar ordenado inorder"]
+
+    F --> L["Búsqueda y ordenamiento por género y plataforma"]
+
+    G --> M["Ranking"]
+
+    I --> N["Detalle de un videojuego"]
+    I --> O["Comparación de videojuegos"]
+
+    P --> Q["Búsqueda por nombre parcial"]
+
+    R --> S["BFS: Ver videojuegos relacionados"]
+    R --> T["BFS: Camino más corto entre dos videojuegos"]
+    R --> U["DFS: Explorar conexiones entre videojuegos"]
+```
+
+- BFS → Ver videojuegos relacionados: recorre los videojuegos alcanzables desde el origen.
+- BFS → Camino más corto: utiliza las distancias y los padres para reconstruir el camino con menos aristas.
+- DFS → Explorar conexiones: recorre en profundidad los videojuegos conectados al origen.
