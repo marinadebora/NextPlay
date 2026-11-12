@@ -43,16 +43,18 @@ Al iniciar la aplicación, se puede elegir entre:
 - versión 3.0 (TP5, con el árbol general de categorías en el filtro por género y plataforma)
 - version 4.0 (TP6, con Heap y rankings dinámicos)
 - version 5.0 (TP7, con un grafo para consultar videojuegos relacionados)
-
+- version 6.0 (TP8, con recorridos del grafo BFS y DFS)
 
 ```bash
-==== NextPlay ====
-1. Versión 1.0
-2. Versión 2.0
-3. Versión 3.0
-4. Versión 4.0
-5. Versión 5.0
-0. Salir
+===== NextPlay =====
+|  1. Versión 1.0  | 
+|  2. Versión 2.0  | 
+|  3. Versión 3.0  | 
+|  4. Versión 4.0  |
+|  5. Versión 5.0  | 
+|  6. Versión 6.0  | 
+|  0. Salir        | 
+===================
 ```
 Las versiones comparten el mismo catálogo de videojuegos (datos/VideoGames.JSON) y mantienen las funcionalidades incorporadas en las versiones anteriores. Cada nueva versión incorpora las estructuras y funcionalidades correspondientes a su trabajo práctico.
 
