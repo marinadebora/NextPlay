@@ -48,8 +48,9 @@ def camino_mas_corto(grafo, origen, destino):
     Encuentra el camino con menor cantidad de aristas entre
     dos videojuegos utilizando BFS.
 
-    Retorna una lista de objetos VideoJuego desde el origen
-    hasta el destino. Si no existe un camino, retorna None.
+    Retorna una tupla (camino, distancia): el camino es la lista de objetos
+    VideoJuego desde el origen hasta el destino y la distancia es la cantidad
+    de aristas. Si no existe un camino, retorna None.
     """
 
     if not grafo.tiene_vertice(origen):
@@ -92,23 +93,32 @@ def dfs(grafo, origen):
     Explora cada rama hasta donde sea posible antes de
     retroceder y continuar con otras ramas.
     Retorna una lista de videojuegos en orden de visita.
+
+    Es iterativo (pila explicita), asi que no tiene limite de profundidad
+    de recursion. Un videojuego se marca como visitado recien cuando se
+    saca de la pila (no cuando se apila): asi cada paso baja por una
+    arista desde el ultimo videojuego visitado, que es lo que define a un DFS.
     """
     if not grafo.tiene_vertice(origen):
         raise ValueError("El videojuego de origen no está en el grafo.")
 
     pila = [origen]
-    visitados = {grafo.clave(origen)}
+    visitados = set()
     orden_visita = []
 
     while pila:
         actual = pila.pop()
+        clave_actual = grafo.clave(actual)
+
+        if clave_actual in visitados:
+            continue  # ya se visito por otra rama
+
+        visitados.add(clave_actual)
         orden_visita.append(actual)
 
-        for vecino, _ in grafo.vecinos(actual):
-            clave_vecino = grafo.clave(vecino)
-
-            if clave_vecino not in visitados:
-                visitados.add(clave_vecino)
+        # en orden inverso para que el primer vecino sea el primero en explorarse
+        for vecino, _ in reversed(grafo.vecinos(actual)):
+            if grafo.clave(vecino) not in visitados:
                 pila.append(vecino)
 
     return orden_visita
