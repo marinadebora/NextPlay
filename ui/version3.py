@@ -61,19 +61,17 @@ def iniciar_version_3(juegos ):
       elif tipo_filtro == "2":
         print(PLATAFORMAS)
 
-        while True:
-          try:
+        try:
             plataforma = int(input("Elegí una opción: ").strip())
             if plataforma <= 50 and plataforma > 0:
               resultado = buscar_por_categoria(arbol_general_platform, PLATFORM[plataforma])
             else:
               print("Elegí una opción correcta")
-              break
-          except ValueError:
+              
+        except ValueError:
             print("Entrada inválida. Ingresá un número.")
 
       elif tipo_filtro == "3":
-        while True:
           try:
             rating_min = input("Rating minimo (enter para omitir): ").strip()
             if rating_min == "":              
@@ -84,7 +82,7 @@ def iniciar_version_3(juegos ):
               resultados = arbol_BST_rating.buscar_desde(float(rating_min))
               print("\nResultados de la busqueda por rating minimo: ")
               print(*resultados)
-              break
+              
           except ValueError:
             print("Entrada inválida. Ingresá un número.")
       elif tipo_filtro == "0":
